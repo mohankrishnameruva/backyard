@@ -15,6 +15,8 @@ class listItemTableViewCell: UITableViewCell {
         // Initialization code
     }
 
+    @IBOutlet weak var itemName: UITextField!
+    @IBOutlet weak var quantity: UITextField!
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
 

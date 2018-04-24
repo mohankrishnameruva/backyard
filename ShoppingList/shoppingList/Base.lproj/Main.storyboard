@@ -19,24 +19,44 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="r5v-iq-MyJ">
-                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <rect key="frame" x="0.0" y="64" width="375" height="553"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <connections>
                                     <outlet property="dataSource" destination="BYZ-38-t0r" id="tm1-YV-UI5"/>
                                     <outlet property="delegate" destination="BYZ-38-t0r" id="r4Z-Wk-nsb"/>
                                 </connections>
                             </tableView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JOL-6X-88W">
+                                <rect key="frame" x="0.0" y="617" width="375" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="uRx-h2-y67"/>
+                                </constraints>
+                                <state key="normal" title="Save"/>
+                                <connections>
+                                    <action selector="onClickSave:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uEO-Sn-XvE"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="r5v-iq-MyJ" secondAttribute="bottom" id="6Nw-g0-w4I"/>
                             <constraint firstItem="r5v-iq-MyJ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Wnb-TV-bNJ"/>
                             <constraint firstItem="r5v-iq-MyJ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="YXO-yz-fmc"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="JOL-6X-88W" secondAttribute="bottom" id="Zzu-Ln-pcd"/>
+                            <constraint firstItem="JOL-6X-88W" firstAttribute="top" secondItem="r5v-iq-MyJ" secondAttribute="bottom" id="b6W-AF-KTk"/>
+                            <constraint firstItem="JOL-6X-88W" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="eC6-Vc-Egs"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="JOL-6X-88W" secondAttribute="trailing" id="n9i-Rs-REw"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="r5v-iq-MyJ" secondAttribute="trailing" id="qIt-ao-ikZ"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Shopping list" id="z3p-6n-zH2"/>
+                    <navigationItem key="navigationItem" title="Shopping list" id="z3p-6n-zH2">
+                        <barButtonItem key="leftBarButtonItem" title="Share" id="Tfz-eG-5na" userLabel="Share"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="zJi-rW-kfu" userLabel="addNewItem">
+                            <connections>
+                                <action selector="addNewItem:" destination="BYZ-38-t0r" id="1Jg-f4-1Ou"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="shopListTable" destination="r5v-iq-MyJ" id="pAs-i3-ZvU"/>
                     </connections>
@@ -44,6 +64,21 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="260" y="133.5832083958021"/>
+        </scene>
+        <!--Add New Item-->
+        <scene sceneID="AeP-jv-VGP">
+            <objects>
+                <viewController id="wpN-2o-hmh" customClass="AddNewItem" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Z1A-Xn-L1b">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="ngX-aQ-HYo"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Yrw-ne-iSI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1013" y="134"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="l1S-CM-aUB">
