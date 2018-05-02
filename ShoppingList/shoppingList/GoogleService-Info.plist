@@ -7,21 +7,21 @@
 	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
 	<string>ca-app-pub-3940256099942544/4411468910</string>
 	<key>CLIENT_ID</key>
-	<string>187969512100-itj13ndk3vofb8j8elvqiqkb8smlp9cq.apps.googleusercontent.com</string>
+	<string>980620825864-11gocfarrcbe0emc388o7c2ud0h13pnt.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.187969512100-itj13ndk3vofb8j8elvqiqkb8smlp9cq</string>
+	<string>com.googleusercontent.apps.980620825864-11gocfarrcbe0emc388o7c2ud0h13pnt</string>
 	<key>API_KEY</key>
-	<string>AIzaSyBpjk6YW8yq79-mGMJaNBLPVLW1mh7vpOU</string>
+	<string>AIzaSyBY1tHCfJvUmQkUarqwn1s5XtuNmL90hKQ</string>
 	<key>GCM_SENDER_ID</key>
-	<string>187969512100</string>
+	<string>980620825864</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
 	<string>com.Mohan.shoppingList</string>
 	<key>PROJECT_ID</key>
-	<string>shoppinglist-b0192</string>
+	<string>shoppinglist2-96075</string>
 	<key>STORAGE_BUCKET</key>
-	<string>shoppinglist-b0192.appspot.com</string>
+	<string>shoppinglist2-96075.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<true></true>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -33,8 +33,8 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:187969512100:ios:521de14628b4f6d8</string>
+	<string>1:980620825864:ios:521de14628b4f6d8</string>
 	<key>DATABASE_URL</key>
-	<string>https://shoppinglist-b0192.firebaseio.com</string>
+	<string>https://shoppinglist2-96075.firebaseio.com</string>
 </dict>
 </plist>

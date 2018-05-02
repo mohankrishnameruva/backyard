@@ -9,17 +9,52 @@
 import UIKit
 import CoreData
 import Firebase
+import FirebaseDatabase
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
-
+  
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         
-       // FirebaseApp.configure()
+        FirebaseApp.configure()
+        var ref: DatabaseReference!
+        
+        ref = Database.database().reference()
+        
+//        let managedObjectContext = persistentContainer.viewContext
+//
+//        // Helpers
+//        var list: NSManagedObject? = nil
+//
+//        // Fetch List Records
+//        let lists = fetchRecordsForEntity("ShoppingList", inManagedObjectContext: managedObjectContext)
+//
+//        if let listRecord = lists.first {
+//            list = listRecord
+//        } else if let listRecord = createRecordForEntity("ShoppingList", inManagedObjectContext: managedObjectContext) {
+//            list = listRecord
+//        }
+//
+//        print("number of lists: \(lists.count)")
+//        print("--")
+//
+//        if let list = list {
+//            print(list)
+//        } else {
+//            print("unable to fetch or create list")
+//        }
+//
+//        do {
+//            // Save Managed Object Context
+//            try managedObjectContext.save()
+//
+//        } catch {
+//            print("Unable to save managed object context.")
+//        }
+//
         return true
     }
 
@@ -48,7 +83,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
     // MARK: - Core Data stack
-
+    
     lazy var persistentContainer: NSPersistentContainer = {
         /*
          The persistent container for the application. This implementation
@@ -76,6 +111,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         return container
     }()
 
+
     // MARK: - Core Data Saving support
 
     func saveContext () {
@@ -84,13 +120,45 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             do {
                 try context.save()
             } catch {
-                // Replace this implementation with code to handle the error appropriately.
-                // fatalError() causes the application to generate a crash log and terminate. You should not use this function in a shipping application, although it may be useful during development.
+
                 let nserror = error as NSError
                 fatalError("Unresolved error \(nserror), \(nserror.userInfo)")
             }
         }
     }
-
+    // MARK: - Core Data create Record
+    private func createRecordForEntity(_ entity: String, inManagedObjectContext managedObjectContext: NSManagedObjectContext) -> NSManagedObject? {
+        // Helpers
+        var result: NSManagedObject?
+        
+        // Create Entity Description
+        let entityDescription = NSEntityDescription.entity(forEntityName: entity, in: managedObjectContext)
+        
+        if let entityDescription = entityDescription {
+            // Create Managed Object
+            result = NSManagedObject(entity: entityDescription, insertInto: managedObjectContext)
+        }
+        
+        return result
+    }
+    
+    private func fetchRecordsForEntity(_ entity: String, inManagedObjectContext managedObjectContext: NSManagedObjectContext) -> [NSManagedObject] {
+        // Create Fetch Request
+        let fetchRequest = NSFetchRequest<NSFetchRequestResult>(entityName: entity)
+        
+        // Helpers
+        var result = [NSManagedObject]()
+        do {
+            // Execute Fetch Request
+            let records = try managedObjectContext.fetch(fetchRequest)
+            
+            if let records = records as? [NSManagedObject] {
+                result = records
+            }
+        } catch {
+            print("Unable to fetch managed objects for entity \(entity).")
+        }
+        return result
+    }
 }
 
