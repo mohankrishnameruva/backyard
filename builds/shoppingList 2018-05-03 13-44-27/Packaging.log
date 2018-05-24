@@ -1,0 +1,637 @@
+2018-05-03 08:14:16 +0000  Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x7fba5e14cfe0; archive(resolved)='<IDEArchive: 0x7fba7b0e2a20>', distributionTask(resolved)='2', distributionMethod(resolved)='<IDEDistributionMethodDevelopmentSigned: 0x7fba7c3ba320>', team(resolved)='<IDEProvisioningBasicTeam 0x7fba745a3420: teamID: 9U7Y45UZ8Q, teamName: INCTURE TECHNOLOGIES PRIVATE LIMITED>'>
+	Chain (11, self inclusive):
+	<IDEDistributionProcessingPipelineContext: 0x7fba5e14cfe0; archive = '<IDEArchive: 0x7fba7b0e2a20>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7fba7c3ba320>', team='<IDEProvisioningBasicTeam 0x7fba745a3420: teamID: 9U7Y45UZ8Q, teamName: INCTURE TECHNOLOGIES PRIVATE LIMITED>'>
+	<IDEDistributionProcessingPipelineContext: 0x7fba71427e20; archive = '<IDEArchive: 0x7fba7b0e2a20>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7fba7c3ba320>', team='<IDEProvisioningBasicTeam 0x7fba745a3420: teamID: 9U7Y45UZ8Q, teamName: INCTURE TECHNOLOGIES PRIVATE LIMITED>'>
+	<IDEDistributionContext: 0x7fba7c186ea0; archive = '<IDEArchive: 0x7fba7b0e2a20>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7fba7c3ba320>', team='<IDEProvisioningBasicTeam 0x7fba745a3420: teamID: 9U7Y45UZ8Q, teamName: INCTURE TECHNOLOGIES PRIVATE LIMITED>'>
+	<IDEDistributionContext: 0x7fba5e0a60b0; archive = '<IDEArchive: 0x7fba7b0e2a20>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7fba7c3ba320>', team='<IDEProvisioningBasicTeam 0x7fba745a3420: teamID: 9U7Y45UZ8Q, teamName: INCTURE TECHNOLOGIES PRIVATE LIMITED>'>
+	<IDEDistributionContext: 0x7fba5c40b0d0; archive = '<IDEArchive: 0x7fba7b0e2a20>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7fba7c3ba320>', team='<IDEProvisioningBasicTeam 0x7fba745a3420: teamID: 9U7Y45UZ8Q, teamName: INCTURE TECHNOLOGIES PRIVATE LIMITED>'>
+	<IDEDistributionContext: 0x7fba5c40ac70; archive = '<IDEArchive: 0x7fba7b0e2a20>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7fba7c3ba320>', team='<IDEProvisioningBasicTeam 0x7fba745a3420: teamID: 9U7Y45UZ8Q, teamName: INCTURE TECHNOLOGIES PRIVATE LIMITED>'>
+	<IDEDistributionContext: 0x7fba5e0f6c40; archive = '<IDEArchive: 0x7fba7b0e2a20>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7fba7c3ba320>', team='<IDEProvisioningBasicTeam 0x7fba745a3420: teamID: 9U7Y45UZ8Q, teamName: INCTURE TECHNOLOGIES PRIVATE LIMITED>'>
+	<IDEDistributionContext: 0x7fba5c7cc600; archive = '<IDEArchive: 0x7fba7b0e2a20>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7fba7c3ba320>', team='<IDEProvisioningBasicTeam 0x7fba745a3420: teamID: 9U7Y45UZ8Q, teamName: INCTURE TECHNOLOGIES PRIVATE LIMITED>'>
+	<IDEDistributionContext: 0x7fba74593c70; archive = '<IDEArchive: 0x7fba7b0e2a20>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7fba7c3ba320>', team='<IDEProvisioningBasicTeam 0x7fba745a3420: teamID: 9U7Y45UZ8Q, teamName: INCTURE TECHNOLOGIES PRIVATE LIMITED>'>
+	<IDEDistributionContext: 0x7fba7c3a3ef0; archive = '<IDEArchive: 0x7fba7b0e2a20>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7fba7c3ba320>', team='(null)'>
+	<IDEDistributionContext: 0x7fba5e024400; archive = '<IDEArchive: 0x7fba7b0e2a20>', distributionMethod='(null)', team='(null)'>
+</IDEDistributionProcessingPipelineContext: 0x7fba5e14cfe0>
+2018-05-03 08:14:16 +0000  Processing step: IDEDistributionCreateDestRootStep
+2018-05-03 08:14:16 +0000  Processing step: IDEDistributionCopyItemStep
+2018-05-03 08:14:16 +0000  Running /usr/bin/ditto '-V' '/Users/Mohan/Library/Developer/Xcode/Archives/2018-05-03/shoppingList 03-05-18, 1.43 PM.xcarchive/Products/Applications/shoppingList.app' '/var/folders/75/4b80cfbd5cx51m7f6p1nc74w0000gp/T/XcodeDistPipeline.AtU/Root/Payload/shoppingList.app'
+2018-05-03 08:14:16 +0000  >>> Copying /Users/Mohan/Library/Developer/Xcode/Archives/2018-05-03/shoppingList 03-05-18, 1.43 PM.xcarchive/Products/Applications/shoppingList.app 
+2018-05-03 08:14:16 +0000  copying file ./_CodeSignature/CodeResources ... 
+2018-05-03 08:14:16 +0000  17601 bytes for ./_CodeSignature/CodeResources
+2018-05-03 08:14:16 +0000  copying file ./listItemTableViewCell.nib ... 
+2018-05-03 08:14:16 +0000  3415 bytes for ./listItemTableViewCell.nib
+2018-05-03 08:14:16 +0000  copying file ./AppIcon60x60@2x.png ... 
+2018-05-03 08:14:16 +0000  1372 bytes for ./AppIcon60x60@2x.png
+2018-05-03 08:14:16 +0000  copying file ./shoppingList.momd/VersionInfo.plist ... 
+2018-05-03 08:14:16 +0000  213 bytes for ./shoppingList.momd/VersionInfo.plist
+2018-05-03 08:14:16 +0000  copying file ./shoppingList.momd/shoppingList.omo ... 
+2018-05-03 08:14:16 +0000  2480 bytes for ./shoppingList.momd/shoppingList.omo
+copying file ./shoppingList.momd/shoppingList.mom ... 
+2018-05-03 08:14:16 +0000  1471 bytes for ./shoppingList.momd/shoppingList.mom
+2018-05-03 08:14:16 +0000  copying file ./GoogleService-Info.plist ... 
+2018-05-03 08:14:16 +0000  895 bytes for ./GoogleService-Info.plist
+2018-05-03 08:14:16 +0000  copying file ./Base.lproj/Main.storyboardc/UIViewController-lwt-ey-VSO.nib ... 
+2018-05-03 08:14:16 +0000  985 bytes for ./Base.lproj/Main.storyboardc/UIViewController-lwt-ey-VSO.nib
+copying file ./Base.lproj/Main.storyboardc/lwt-ey-VSO-view-MDD-mS-DE2.nib ... 
+2018-05-03 08:14:16 +0000  4994 bytes for ./Base.lproj/Main.storyboardc/lwt-ey-VSO-view-MDD-mS-DE2.nib
+2018-05-03 08:14:16 +0000  copying file ./Base.lproj/Main.storyboardc/ViewController.nib ... 
+2018-05-03 08:14:16 +0000  1703 bytes for ./Base.lproj/Main.storyboardc/ViewController.nib
+2018-05-03 08:14:16 +0000  copying file ./Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib ... 
+2018-05-03 08:14:16 +0000  3988 bytes for ./Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib
+2018-05-03 08:14:16 +0000  copying file ./Base.lproj/Main.storyboardc/Info.plist ... 
+2018-05-03 08:14:16 +0000  292 bytes for ./Base.lproj/Main.storyboardc/Info.plist
+2018-05-03 08:14:16 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+2018-05-03 08:14:16 +0000  1136 bytes for ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+copying file ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+2018-05-03 08:14:16 +0000  832 bytes for ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+2018-05-03 08:14:16 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+258 bytes for ./Base.lproj/LaunchScreen.storyboardc/Info.plist
+copying file ./archived-expanded-entitlements.xcent ... 
+382 bytes for ./archived-expanded-entitlements.xcent
+copying file ./Assets.car ... 
+2018-05-03 08:14:16 +0000  420392 bytes for ./Assets.car
+copying file ./shoppingList ... 
+2018-05-03 08:14:16 +0000  8079952 bytes for ./shoppingList
+2018-05-03 08:14:16 +0000  copying file ./Frameworks/CoreDataManager.framework/_CodeSignature/CodeResources ... 
+2202 bytes for ./Frameworks/CoreDataManager.framework/_CodeSignature/CodeResources
+copying file ./Frameworks/CoreDataManager.framework/CoreDataManager ... 
+866272 bytes for ./Frameworks/CoreDataManager.framework/CoreDataManager
+copying file ./Frameworks/CoreDataManager.framework/Info.plist ... 
+751 bytes for ./Frameworks/CoreDataManager.framework/Info.plist
+copying file ./Frameworks/SwiftyJSON.framework/_CodeSignature/CodeResources ... 
+2202 bytes for ./Frameworks/SwiftyJSON.framework/_CodeSignature/CodeResources
+copying file ./Frameworks/SwiftyJSON.framework/SwiftyJSON ... 
+1244880 bytes for ./Frameworks/SwiftyJSON.framework/SwiftyJSON
+copying file ./Frameworks/SwiftyJSON.framework/Info.plist ... 
+739 bytes for ./Frameworks/SwiftyJSON.framework/Info.plist
+copying file ./Frameworks/libswiftCoreImage.dylib ... 
+258272 bytes for ./Frameworks/libswiftCoreImage.dylib
+copying file ./Frameworks/libswiftObjectiveC.dylib ... 
+505792 bytes for ./Frameworks/libswiftObjectiveC.dylib
+copying file ./Frameworks/libswiftCore.dylib ... 
+2018-05-03 08:14:16 +0000  68838944 bytes for ./Frameworks/libswiftCore.dylib
+2018-05-03 08:14:16 +0000  copying file ./Frameworks/libswiftCoreGraphics.dylib ... 
+1268848 bytes for ./Frameworks/libswiftCoreGraphics.dylib
+copying file ./Frameworks/libswiftUIKit.dylib ... 
+789184 bytes for ./Frameworks/libswiftUIKit.dylib
+copying file ./Frameworks/libswiftMetal.dylib ... 
+399376 bytes for ./Frameworks/libswiftMetal.dylib
+copying file ./Frameworks/libswiftCoreData.dylib ... 
+690560 bytes for ./Frameworks/libswiftCoreData.dylib
+copying file ./Frameworks/libswiftDispatch.dylib ... 
+2440736 bytes for ./Frameworks/libswiftDispatch.dylib
+copying file ./Frameworks/libswiftos.dylib ... 
+446400 bytes for ./Frameworks/libswiftos.dylib
+copying file ./Frameworks/libswiftCoreFoundation.dylib ... 
+257696 bytes for ./Frameworks/libswiftCoreFoundation.dylib
+copying file ./Frameworks/libswiftDarwin.dylib ... 
+599280 bytes for ./Frameworks/libswiftDarwin.dylib
+copying file ./Frameworks/GoogleToolboxForMac.framework/_CodeSignature/CodeResources ... 
+2202 bytes for ./Frameworks/GoogleToolboxForMac.framework/_CodeSignature/CodeResources
+copying file ./Frameworks/GoogleToolboxForMac.framework/GoogleToolboxForMac ... 
+185312 bytes for ./Frameworks/GoogleToolboxForMac.framework/GoogleToolboxForMac
+copying file ./Frameworks/GoogleToolboxForMac.framework/Info.plist ... 
+759 bytes for ./Frameworks/GoogleToolboxForMac.framework/Info.plist
+copying file ./Frameworks/nanopb.framework/_CodeSignature/CodeResources ... 
+2202 bytes for ./Frameworks/nanopb.framework/_CodeSignature/CodeResources
+copying file ./Frameworks/nanopb.framework/nanopb ... 
+217008 bytes for ./Frameworks/nanopb.framework/nanopb
+copying file ./Frameworks/nanopb.framework/Info.plist ... 
+731 bytes for ./Frameworks/nanopb.framework/Info.plist
+copying file ./Frameworks/libswiftQuartzCore.dylib ... 
+310976 bytes for ./Frameworks/libswiftQuartzCore.dylib
+copying file ./Frameworks/leveldb.framework/_CodeSignature/CodeResources ... 
+2202 bytes for ./Frameworks/leveldb.framework/_CodeSignature/CodeResources
+copying file ./Frameworks/leveldb.framework/leveldb ... 
+2148688 bytes for ./Frameworks/leveldb.framework/leveldb
+copying file ./Frameworks/leveldb.framework/Info.plist ... 
+734 bytes for ./Frameworks/leveldb.framework/Info.plist
+copying file ./Frameworks/libswiftFoundation.dylib ... 
+2018-05-03 08:14:16 +0000  27922976 bytes for ./Frameworks/libswiftFoundation.dylib
+2018-05-03 08:14:16 +0000  2018-05-03 08:14:16 +0000  /usr/bin/ditto exited with 0
+
+2018-05-03 08:14:16 +0000  copying file ./embedded.mobileprovision ... 
+25712 bytes for ./embedded.mobileprovision
+copying file ./Info.plist ... 
+1271 bytes for ./Info.plist
+copying file ./PkgInfo ... 
+8 bytes for ./PkgInfo
+2018-05-03 08:14:16 +0000  Processing step: IDEDistributionEmbedProfileStep
+2018-05-03 08:14:16 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fba5c7caad0 'org.cocoapods.CoreDataManager' '<DVTFilePath:0x7fba7c14b9c0:'/Users/Mohan/Library/Developer/Xcode/Archives/2018-05-03/shoppingList 03-05-18, 1.43 PM.xcarchive/Products/Applications/shoppingList.app/Frameworks/CoreDataManager.framework'>'>
+2018-05-03 08:14:16 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fba5c7c0140 'org.cocoapods.GoogleToolboxForMac' '<DVTFilePath:0x7fba7b4d9dd0:'/Users/Mohan/Library/Developer/Xcode/Archives/2018-05-03/shoppingList 03-05-18, 1.43 PM.xcarchive/Products/Applications/shoppingList.app/Frameworks/GoogleToolboxForMac.framework'>'>
+2018-05-03 08:14:16 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fba5c7c70f0 'org.cocoapods.SwiftyJSON' '<DVTFilePath:0x7fba7b0f4350:'/Users/Mohan/Library/Developer/Xcode/Archives/2018-05-03/shoppingList 03-05-18, 1.43 PM.xcarchive/Products/Applications/shoppingList.app/Frameworks/SwiftyJSON.framework'>'>
+2018-05-03 08:14:16 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fba5c7cd030 'org.cocoapods.leveldb' '<DVTFilePath:0x7fba7c250cc0:'/Users/Mohan/Library/Developer/Xcode/Archives/2018-05-03/shoppingList 03-05-18, 1.43 PM.xcarchive/Products/Applications/shoppingList.app/Frameworks/leveldb.framework'>'>
+2018-05-03 08:14:16 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fba5e132af0 'com.apple.dt.runtime.swiftCore' '<DVTFilePath:0x7fba7a78bcf0:'/Users/Mohan/Library/Developer/Xcode/Archives/2018-05-03/shoppingList 03-05-18, 1.43 PM.xcarchive/Products/Applications/shoppingList.app/Frameworks/libswiftCore.dylib'>'>
+2018-05-03 08:14:16 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fba5c7c87f0 'com.apple.dt.runtime.swiftCoreData' '<DVTFilePath:0x7fba7c23a1c0:'/Users/Mohan/Library/Developer/Xcode/Archives/2018-05-03/shoppingList 03-05-18, 1.43 PM.xcarchive/Products/Applications/shoppingList.app/Frameworks/libswiftCoreData.dylib'>'>
+2018-05-03 08:14:16 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fba5e0aabc0 'com.apple.dt.runtime.swiftCoreFoundation' '<DVTFilePath:0x7fba5c4f0230:'/Users/Mohan/Library/Developer/Xcode/Archives/2018-05-03/shoppingList 03-05-18, 1.43 PM.xcarchive/Products/Applications/shoppingList.app/Frameworks/libswiftCoreFoundation.dylib'>'>
+2018-05-03 08:14:16 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fba5c7c9910 'com.apple.dt.runtime.swiftCoreGraphics' '<DVTFilePath:0x7fba7b46e0a0:'/Users/Mohan/Library/Developer/Xcode/Archives/2018-05-03/shoppingList 03-05-18, 1.43 PM.xcarchive/Products/Applications/shoppingList.app/Frameworks/libswiftCoreGraphics.dylib'>'>
+2018-05-03 08:14:16 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fba7c14cbc0 'com.apple.dt.runtime.swiftCoreImage' '<DVTFilePath:0x7fba710b72d0:'/Users/Mohan/Library/Developer/Xcode/Archives/2018-05-03/shoppingList 03-05-18, 1.43 PM.xcarchive/Products/Applications/shoppingList.app/Frameworks/libswiftCoreImage.dylib'>'>
+2018-05-03 08:14:16 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fba5c7d1cc0 'com.apple.dt.runtime.swiftDarwin' '<DVTFilePath:0x7fba7b2dde60:'/Users/Mohan/Library/Developer/Xcode/Archives/2018-05-03/shoppingList 03-05-18, 1.43 PM.xcarchive/Products/Applications/shoppingList.app/Frameworks/libswiftDarwin.dylib'>'>
+2018-05-03 08:14:16 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fba7c14c280 'com.apple.dt.runtime.swiftDispatch' '<DVTFilePath:0x7fba74133d70:'/Users/Mohan/Library/Developer/Xcode/Archives/2018-05-03/shoppingList 03-05-18, 1.43 PM.xcarchive/Products/Applications/shoppingList.app/Frameworks/libswiftDispatch.dylib'>'>
+2018-05-03 08:14:16 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fba7b0426d0 'com.apple.dt.runtime.swiftFoundation' '<DVTFilePath:0x7fba5c7ba0c0:'/Users/Mohan/Library/Developer/Xcode/Archives/2018-05-03/shoppingList 03-05-18, 1.43 PM.xcarchive/Products/Applications/shoppingList.app/Frameworks/libswiftFoundation.dylib'>'>
+2018-05-03 08:14:16 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fba5c7c4090 'com.apple.dt.runtime.swiftMetal' '<DVTFilePath:0x7fba5c436770:'/Users/Mohan/Library/Developer/Xcode/Archives/2018-05-03/shoppingList 03-05-18, 1.43 PM.xcarchive/Products/Applications/shoppingList.app/Frameworks/libswiftMetal.dylib'>'>
+2018-05-03 08:14:16 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fba5c7cf4d0 'com.apple.dt.runtime.swiftObjectiveC' '<DVTFilePath:0x7fba5e137f10:'/Users/Mohan/Library/Developer/Xcode/Archives/2018-05-03/shoppingList 03-05-18, 1.43 PM.xcarchive/Products/Applications/shoppingList.app/Frameworks/libswiftObjectiveC.dylib'>'>
+2018-05-03 08:14:16 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fba7139f930 'com.apple.dt.runtime.swiftQuartzCore' '<DVTFilePath:0x7fba7a7d0140:'/Users/Mohan/Library/Developer/Xcode/Archives/2018-05-03/shoppingList 03-05-18, 1.43 PM.xcarchive/Products/Applications/shoppingList.app/Frameworks/libswiftQuartzCore.dylib'>'>
+2018-05-03 08:14:16 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fba5c7cb550 'com.apple.dt.runtime.swiftUIKit' '<DVTFilePath:0x7fba5c4c3a20:'/Users/Mohan/Library/Developer/Xcode/Archives/2018-05-03/shoppingList 03-05-18, 1.43 PM.xcarchive/Products/Applications/shoppingList.app/Frameworks/libswiftUIKit.dylib'>'>
+2018-05-03 08:14:16 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fba75cf95a0 'com.apple.dt.runtime.swiftos' '<DVTFilePath:0x7fba7b2d3a70:'/Users/Mohan/Library/Developer/Xcode/Archives/2018-05-03/shoppingList 03-05-18, 1.43 PM.xcarchive/Products/Applications/shoppingList.app/Frameworks/libswiftos.dylib'>'>
+2018-05-03 08:14:16 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fba7c14c4c0 'org.cocoapods.nanopb' '<DVTFilePath:0x7fba5c74aec0:'/Users/Mohan/Library/Developer/Xcode/Archives/2018-05-03/shoppingList 03-05-18, 1.43 PM.xcarchive/Products/Applications/shoppingList.app/Frameworks/nanopb.framework'>'>
+2018-05-03 08:14:16 +0000  Processing step: IDEDistributionAppThinningPlistStep
+2018-05-03 08:14:16 +0000  Processing step: IDEDistributionCompileBitcodeStep
+2018-05-03 08:14:16 +0000  Skipping step: IDEDistributionCompileBitcodeStep because it said so
+2018-05-03 08:14:16 +0000  Processing step: IDEDistributionCodeSlimmingStep
+2018-05-03 08:14:17 +0000  Processing step: IDEDistributionCopyBCSymbolMapsStep
+2018-05-03 08:14:17 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2018-05-03 08:14:17 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2018-05-03 08:14:17 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2018-05-03 08:14:17 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2018-05-03 08:14:17 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2018-05-03 08:14:17 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2018-05-03 08:14:17 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2018-05-03 08:14:17 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2018-05-03 08:14:17 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2018-05-03 08:14:17 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2018-05-03 08:14:17 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2018-05-03 08:14:17 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2018-05-03 08:14:17 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2018-05-03 08:14:17 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2018-05-03 08:14:17 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2018-05-03 08:14:17 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2018-05-03 08:14:17 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2018-05-03 08:14:17 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2018-05-03 08:14:17 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2018-05-03 08:14:17 +0000  Processing step: IDEDistributionSymbolsStep
+2018-05-03 08:14:17 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-05-03 08:14:17 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-05-03 08:14:17 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-05-03 08:14:17 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-05-03 08:14:17 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-05-03 08:14:17 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-05-03 08:14:17 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-05-03 08:14:17 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-05-03 08:14:17 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-05-03 08:14:17 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-05-03 08:14:17 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-05-03 08:14:17 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-05-03 08:14:17 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-05-03 08:14:17 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-05-03 08:14:17 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-05-03 08:14:17 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-05-03 08:14:17 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-05-03 08:14:17 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-05-03 08:14:17 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-05-03 08:14:17 +0000  Processing step: IDEDistributionAppThinningStep
+2018-05-03 08:14:17 +0000  Skipping step: IDEDistributionAppThinningStep because it said so
+2018-05-03 08:14:17 +0000  Processing step: IDEDistributionODRStep
+2018-05-03 08:14:17 +0000  Processing step: IDEDistributionStripXattrsStep
+2018-05-03 08:14:17 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fba5c7caad0 'org.cocoapods.CoreDataManager' '<DVTFilePath:0x7fba7c14b9c0:'/Users/Mohan/Library/Developer/Xcode/Archives/2018-05-03/shoppingList 03-05-18, 1.43 PM.xcarchive/Products/Applications/shoppingList.app/Frameworks/CoreDataManager.framework'>'>
+2018-05-03 08:14:17 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fba5c7c0140 'org.cocoapods.GoogleToolboxForMac' '<DVTFilePath:0x7fba7b4d9dd0:'/Users/Mohan/Library/Developer/Xcode/Archives/2018-05-03/shoppingList 03-05-18, 1.43 PM.xcarchive/Products/Applications/shoppingList.app/Frameworks/GoogleToolboxForMac.framework'>'>
+2018-05-03 08:14:17 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fba5c7c70f0 'org.cocoapods.SwiftyJSON' '<DVTFilePath:0x7fba7b0f4350:'/Users/Mohan/Library/Developer/Xcode/Archives/2018-05-03/shoppingList 03-05-18, 1.43 PM.xcarchive/Products/Applications/shoppingList.app/Frameworks/SwiftyJSON.framework'>'>
+2018-05-03 08:14:17 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fba5c7cd030 'org.cocoapods.leveldb' '<DVTFilePath:0x7fba7c250cc0:'/Users/Mohan/Library/Developer/Xcode/Archives/2018-05-03/shoppingList 03-05-18, 1.43 PM.xcarchive/Products/Applications/shoppingList.app/Frameworks/leveldb.framework'>'>
+2018-05-03 08:14:17 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fba5e132af0 'com.apple.dt.runtime.swiftCore' '<DVTFilePath:0x7fba7a78bcf0:'/Users/Mohan/Library/Developer/Xcode/Archives/2018-05-03/shoppingList 03-05-18, 1.43 PM.xcarchive/Products/Applications/shoppingList.app/Frameworks/libswiftCore.dylib'>'>
+2018-05-03 08:14:17 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fba5c7c87f0 'com.apple.dt.runtime.swiftCoreData' '<DVTFilePath:0x7fba7c23a1c0:'/Users/Mohan/Library/Developer/Xcode/Archives/2018-05-03/shoppingList 03-05-18, 1.43 PM.xcarchive/Products/Applications/shoppingList.app/Frameworks/libswiftCoreData.dylib'>'>
+2018-05-03 08:14:17 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fba5e0aabc0 'com.apple.dt.runtime.swiftCoreFoundation' '<DVTFilePath:0x7fba5c4f0230:'/Users/Mohan/Library/Developer/Xcode/Archives/2018-05-03/shoppingList 03-05-18, 1.43 PM.xcarchive/Products/Applications/shoppingList.app/Frameworks/libswiftCoreFoundation.dylib'>'>
+2018-05-03 08:14:17 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fba5c7c9910 'com.apple.dt.runtime.swiftCoreGraphics' '<DVTFilePath:0x7fba7b46e0a0:'/Users/Mohan/Library/Developer/Xcode/Archives/2018-05-03/shoppingList 03-05-18, 1.43 PM.xcarchive/Products/Applications/shoppingList.app/Frameworks/libswiftCoreGraphics.dylib'>'>
+2018-05-03 08:14:17 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fba7c14cbc0 'com.apple.dt.runtime.swiftCoreImage' '<DVTFilePath:0x7fba710b72d0:'/Users/Mohan/Library/Developer/Xcode/Archives/2018-05-03/shoppingList 03-05-18, 1.43 PM.xcarchive/Products/Applications/shoppingList.app/Frameworks/libswiftCoreImage.dylib'>'>
+2018-05-03 08:14:17 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fba5c7d1cc0 'com.apple.dt.runtime.swiftDarwin' '<DVTFilePath:0x7fba7b2dde60:'/Users/Mohan/Library/Developer/Xcode/Archives/2018-05-03/shoppingList 03-05-18, 1.43 PM.xcarchive/Products/Applications/shoppingList.app/Frameworks/libswiftDarwin.dylib'>'>
+2018-05-03 08:14:17 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fba7c14c280 'com.apple.dt.runtime.swiftDispatch' '<DVTFilePath:0x7fba74133d70:'/Users/Mohan/Library/Developer/Xcode/Archives/2018-05-03/shoppingList 03-05-18, 1.43 PM.xcarchive/Products/Applications/shoppingList.app/Frameworks/libswiftDispatch.dylib'>'>
+2018-05-03 08:14:17 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fba7b0426d0 'com.apple.dt.runtime.swiftFoundation' '<DVTFilePath:0x7fba5c7ba0c0:'/Users/Mohan/Library/Developer/Xcode/Archives/2018-05-03/shoppingList 03-05-18, 1.43 PM.xcarchive/Products/Applications/shoppingList.app/Frameworks/libswiftFoundation.dylib'>'>
+2018-05-03 08:14:17 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fba5c7c4090 'com.apple.dt.runtime.swiftMetal' '<DVTFilePath:0x7fba5c436770:'/Users/Mohan/Library/Developer/Xcode/Archives/2018-05-03/shoppingList 03-05-18, 1.43 PM.xcarchive/Products/Applications/shoppingList.app/Frameworks/libswiftMetal.dylib'>'>
+2018-05-03 08:14:17 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fba5c7cf4d0 'com.apple.dt.runtime.swiftObjectiveC' '<DVTFilePath:0x7fba5e137f10:'/Users/Mohan/Library/Developer/Xcode/Archives/2018-05-03/shoppingList 03-05-18, 1.43 PM.xcarchive/Products/Applications/shoppingList.app/Frameworks/libswiftObjectiveC.dylib'>'>
+2018-05-03 08:14:17 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fba7139f930 'com.apple.dt.runtime.swiftQuartzCore' '<DVTFilePath:0x7fba7a7d0140:'/Users/Mohan/Library/Developer/Xcode/Archives/2018-05-03/shoppingList 03-05-18, 1.43 PM.xcarchive/Products/Applications/shoppingList.app/Frameworks/libswiftQuartzCore.dylib'>'>
+2018-05-03 08:14:17 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fba5c7cb550 'com.apple.dt.runtime.swiftUIKit' '<DVTFilePath:0x7fba5c4c3a20:'/Users/Mohan/Library/Developer/Xcode/Archives/2018-05-03/shoppingList 03-05-18, 1.43 PM.xcarchive/Products/Applications/shoppingList.app/Frameworks/libswiftUIKit.dylib'>'>
+2018-05-03 08:14:17 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fba75cf95a0 'com.apple.dt.runtime.swiftos' '<DVTFilePath:0x7fba7b2d3a70:'/Users/Mohan/Library/Developer/Xcode/Archives/2018-05-03/shoppingList 03-05-18, 1.43 PM.xcarchive/Products/Applications/shoppingList.app/Frameworks/libswiftos.dylib'>'>
+2018-05-03 08:14:17 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fba7c14c4c0 'org.cocoapods.nanopb' '<DVTFilePath:0x7fba5c74aec0:'/Users/Mohan/Library/Developer/Xcode/Archives/2018-05-03/shoppingList 03-05-18, 1.43 PM.xcarchive/Products/Applications/shoppingList.app/Frameworks/nanopb.framework'>'>
+2018-05-03 08:14:17 +0000  Running /usr/bin/xattr '-crs' '/var/folders/75/4b80cfbd5cx51m7f6p1nc74w0000gp/T/XcodeDistPipeline.AtU/Root/Payload/shoppingList.app'
+2018-05-03 08:14:17 +0000  2018-05-03 08:14:17 +0000  
+2018-05-03 08:14:17 +0000  /usr/bin/xattr exited with 0
+
+2018-05-03 08:14:17 +0000  2018-05-03 08:14:17 +0000  
+
+2018-05-03 08:14:17 +0000  Processing step: IDEDistributionCodesignStep
+2018-05-03 08:14:17 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fba5c7caad0 'org.cocoapods.CoreDataManager' '<DVTFilePath:0x7fba7c14b9c0:'/Users/Mohan/Library/Developer/Xcode/Archives/2018-05-03/shoppingList 03-05-18, 1.43 PM.xcarchive/Products/Applications/shoppingList.app/Frameworks/CoreDataManager.framework'>'> from <IDEiCloudEntitlementsProcessor: 0x7fba5e0dba60>: {
+}
+2018-05-03 08:14:17 +0000  Entitlements for <IDEDistributionItem: 0x7fba5c7caad0 'org.cocoapods.CoreDataManager' '<DVTFilePath:0x7fba7c14b9c0:'/Users/Mohan/Library/Developer/Xcode/Archives/2018-05-03/shoppingList 03-05-18, 1.43 PM.xcarchive/Products/Applications/shoppingList.app/Frameworks/CoreDataManager.framework'>'>: {
+}
+2018-05-03 08:14:17 +0000  Writing entitlements for <IDEDistributionItem: 0x7fba5c7caad0 'org.cocoapods.CoreDataManager' '<DVTFilePath:0x7fba7c14b9c0:'/Users/Mohan/Library/Developer/Xcode/Archives/2018-05-03/shoppingList 03-05-18, 1.43 PM.xcarchive/Products/Applications/shoppingList.app/Frameworks/CoreDataManager.framework'>'> to: /var/folders/75/4b80cfbd5cx51m7f6p1nc74w0000gp/T/XcodeDistPipeline.AtU/entitlements0lZvLX
+2018-05-03 08:14:17 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'DE00227998C752E8C973CEED3A49E98A6F18C48F' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/75/4b80cfbd5cx51m7f6p1nc74w0000gp/T/XcodeDistPipeline.AtU/entitlements0lZvLX' '/var/folders/75/4b80cfbd5cx51m7f6p1nc74w0000gp/T/XcodeDistPipeline.AtU/Root/Payload/shoppingList.app/Frameworks/CoreDataManager.framework'
+2018-05-03 08:14:17 +0000  /var/folders/75/4b80cfbd5cx51m7f6p1nc74w0000gp/T/XcodeDistPipeline.AtU/Root/Payload/shoppingList.app/Frameworks/CoreDataManager.framework: signed bundle with Mach-O universal (arm64) [org.cocoapods.CoreDataManager]
+2018-05-03 08:14:17 +0000  2018-05-03 08:14:17 +0000  
+
+2018-05-03 08:14:17 +0000  2018-05-03 08:14:17 +0000  
+
+2018-05-03 08:14:17 +0000  
+2018-05-03 08:14:17 +0000  2018-05-03 08:14:17 +0000  2018-05-03 08:14:17 +0000  /usr/bin/codesign exited with 0
+
+
+2018-05-03 08:14:17 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fba5c7c0140 'org.cocoapods.GoogleToolboxForMac' '<DVTFilePath:0x7fba7b4d9dd0:'/Users/Mohan/Library/Developer/Xcode/Archives/2018-05-03/shoppingList 03-05-18, 1.43 PM.xcarchive/Products/Applications/shoppingList.app/Frameworks/GoogleToolboxForMac.framework'>'> from <IDEiCloudEntitlementsProcessor: 0x7fba79dc7420>: {
+}
+2018-05-03 08:14:17 +0000  Entitlements for <IDEDistributionItem: 0x7fba5c7c0140 'org.cocoapods.GoogleToolboxForMac' '<DVTFilePath:0x7fba7b4d9dd0:'/Users/Mohan/Library/Developer/Xcode/Archives/2018-05-03/shoppingList 03-05-18, 1.43 PM.xcarchive/Products/Applications/shoppingList.app/Frameworks/GoogleToolboxForMac.framework'>'>: {
+}
+2018-05-03 08:14:17 +0000  Writing entitlements for <IDEDistributionItem: 0x7fba5c7c0140 'org.cocoapods.GoogleToolboxForMac' '<DVTFilePath:0x7fba7b4d9dd0:'/Users/Mohan/Library/Developer/Xcode/Archives/2018-05-03/shoppingList 03-05-18, 1.43 PM.xcarchive/Products/Applications/shoppingList.app/Frameworks/GoogleToolboxForMac.framework'>'> to: /var/folders/75/4b80cfbd5cx51m7f6p1nc74w0000gp/T/XcodeDistPipeline.AtU/entitlementsATDOLU
+2018-05-03 08:14:17 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'DE00227998C752E8C973CEED3A49E98A6F18C48F' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/75/4b80cfbd5cx51m7f6p1nc74w0000gp/T/XcodeDistPipeline.AtU/entitlementsATDOLU' '/var/folders/75/4b80cfbd5cx51m7f6p1nc74w0000gp/T/XcodeDistPipeline.AtU/Root/Payload/shoppingList.app/Frameworks/GoogleToolboxForMac.framework'
+2018-05-03 08:14:18 +0000  /var/folders/75/4b80cfbd5cx51m7f6p1nc74w0000gp/T/XcodeDistPipeline.AtU/Root/Payload/shoppingList.app/Frameworks/GoogleToolboxForMac.framework: signed bundle with Mach-O universal (arm64) [org.cocoapods.GoogleToolboxForMac]
+2018-05-03 08:14:18 +0000  2018-05-03 08:14:18 +0000  
+
+2018-05-03 08:14:18 +0000  
+2018-05-03 08:14:18 +0000  
+2018-05-03 08:14:18 +0000  
+2018-05-03 08:14:18 +0000  
+2018-05-03 08:14:18 +0000  2018-05-03 08:14:18 +0000  /usr/bin/codesign exited with 02018-05-03 08:14:18 +0000  
+
+
+2018-05-03 08:14:18 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fba5c7c70f0 'org.cocoapods.SwiftyJSON' '<DVTFilePath:0x7fba7b0f4350:'/Users/Mohan/Library/Developer/Xcode/Archives/2018-05-03/shoppingList 03-05-18, 1.43 PM.xcarchive/Products/Applications/shoppingList.app/Frameworks/SwiftyJSON.framework'>'> from <IDEiCloudEntitlementsProcessor: 0x7fba74599750>: {
+}
+2018-05-03 08:14:18 +0000  Entitlements for <IDEDistributionItem: 0x7fba5c7c70f0 'org.cocoapods.SwiftyJSON' '<DVTFilePath:0x7fba7b0f4350:'/Users/Mohan/Library/Developer/Xcode/Archives/2018-05-03/shoppingList 03-05-18, 1.43 PM.xcarchive/Products/Applications/shoppingList.app/Frameworks/SwiftyJSON.framework'>'>: {
+}
+2018-05-03 08:14:18 +0000  Writing entitlements for <IDEDistributionItem: 0x7fba5c7c70f0 'org.cocoapods.SwiftyJSON' '<DVTFilePath:0x7fba7b0f4350:'/Users/Mohan/Library/Developer/Xcode/Archives/2018-05-03/shoppingList 03-05-18, 1.43 PM.xcarchive/Products/Applications/shoppingList.app/Frameworks/SwiftyJSON.framework'>'> to: /var/folders/75/4b80cfbd5cx51m7f6p1nc74w0000gp/T/XcodeDistPipeline.AtU/entitlementsPzTxj9
+2018-05-03 08:14:18 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'DE00227998C752E8C973CEED3A49E98A6F18C48F' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/75/4b80cfbd5cx51m7f6p1nc74w0000gp/T/XcodeDistPipeline.AtU/entitlementsPzTxj9' '/var/folders/75/4b80cfbd5cx51m7f6p1nc74w0000gp/T/XcodeDistPipeline.AtU/Root/Payload/shoppingList.app/Frameworks/SwiftyJSON.framework'
+2018-05-03 08:14:18 +0000  /var/folders/75/4b80cfbd5cx51m7f6p1nc74w0000gp/T/XcodeDistPipeline.AtU/Root/Payload/shoppingList.app/Frameworks/SwiftyJSON.framework: signed bundle with Mach-O universal (arm64) [org.cocoapods.SwiftyJSON]
+2018-05-03 08:14:18 +0000  2018-05-03 08:14:18 +0000  
+
+2018-05-03 08:14:18 +0000  
+2018-05-03 08:14:18 +0000  
+2018-05-03 08:14:18 +0000  2018-05-03 08:14:18 +0000  /usr/bin/codesign exited with 0
+
+2018-05-03 08:14:18 +0000  
+2018-05-03 08:14:18 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fba5c7cd030 'org.cocoapods.leveldb' '<DVTFilePath:0x7fba7c250cc0:'/Users/Mohan/Library/Developer/Xcode/Archives/2018-05-03/shoppingList 03-05-18, 1.43 PM.xcarchive/Products/Applications/shoppingList.app/Frameworks/leveldb.framework'>'> from <IDEiCloudEntitlementsProcessor: 0x7fba713ea410>: {
+}
+2018-05-03 08:14:18 +0000  Entitlements for <IDEDistributionItem: 0x7fba5c7cd030 'org.cocoapods.leveldb' '<DVTFilePath:0x7fba7c250cc0:'/Users/Mohan/Library/Developer/Xcode/Archives/2018-05-03/shoppingList 03-05-18, 1.43 PM.xcarchive/Products/Applications/shoppingList.app/Frameworks/leveldb.framework'>'>: {
+}
+2018-05-03 08:14:18 +0000  Writing entitlements for <IDEDistributionItem: 0x7fba5c7cd030 'org.cocoapods.leveldb' '<DVTFilePath:0x7fba7c250cc0:'/Users/Mohan/Library/Developer/Xcode/Archives/2018-05-03/shoppingList 03-05-18, 1.43 PM.xcarchive/Products/Applications/shoppingList.app/Frameworks/leveldb.framework'>'> to: /var/folders/75/4b80cfbd5cx51m7f6p1nc74w0000gp/T/XcodeDistPipeline.AtU/entitlementsJduSms
+2018-05-03 08:14:18 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'DE00227998C752E8C973CEED3A49E98A6F18C48F' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/75/4b80cfbd5cx51m7f6p1nc74w0000gp/T/XcodeDistPipeline.AtU/entitlementsJduSms' '/var/folders/75/4b80cfbd5cx51m7f6p1nc74w0000gp/T/XcodeDistPipeline.AtU/Root/Payload/shoppingList.app/Frameworks/leveldb.framework'
+2018-05-03 08:14:18 +0000  /var/folders/75/4b80cfbd5cx51m7f6p1nc74w0000gp/T/XcodeDistPipeline.AtU/Root/Payload/shoppingList.app/Frameworks/leveldb.framework: signed bundle with Mach-O universal (arm64) [org.cocoapods.leveldb]
+2018-05-03 08:14:18 +0000  2018-05-03 08:14:18 +0000  
+
+2018-05-03 08:14:18 +0000  
+2018-05-03 08:14:18 +0000  
+2018-05-03 08:14:18 +0000  
+2018-05-03 08:14:18 +0000  2018-05-03 08:14:18 +0000  
+
+2018-05-03 08:14:18 +0000  /usr/bin/codesign exited with 0
+2018-05-03 08:14:18 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fba5e132af0 'com.apple.dt.runtime.swiftCore' '<DVTFilePath:0x7fba7a78bcf0:'/Users/Mohan/Library/Developer/Xcode/Archives/2018-05-03/shoppingList 03-05-18, 1.43 PM.xcarchive/Products/Applications/shoppingList.app/Frameworks/libswiftCore.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7fba5e0ac030>: {
+}
+2018-05-03 08:14:18 +0000  Entitlements for <IDEDistributionItem: 0x7fba5e132af0 'com.apple.dt.runtime.swiftCore' '<DVTFilePath:0x7fba7a78bcf0:'/Users/Mohan/Library/Developer/Xcode/Archives/2018-05-03/shoppingList 03-05-18, 1.43 PM.xcarchive/Products/Applications/shoppingList.app/Frameworks/libswiftCore.dylib'>'>: {
+}
+2018-05-03 08:14:18 +0000  Writing entitlements for <IDEDistributionItem: 0x7fba5e132af0 'com.apple.dt.runtime.swiftCore' '<DVTFilePath:0x7fba7a78bcf0:'/Users/Mohan/Library/Developer/Xcode/Archives/2018-05-03/shoppingList 03-05-18, 1.43 PM.xcarchive/Products/Applications/shoppingList.app/Frameworks/libswiftCore.dylib'>'> to: /var/folders/75/4b80cfbd5cx51m7f6p1nc74w0000gp/T/XcodeDistPipeline.AtU/entitlementstriWuF
+2018-05-03 08:14:18 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'DE00227998C752E8C973CEED3A49E98A6F18C48F' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/75/4b80cfbd5cx51m7f6p1nc74w0000gp/T/XcodeDistPipeline.AtU/entitlementstriWuF' '/var/folders/75/4b80cfbd5cx51m7f6p1nc74w0000gp/T/XcodeDistPipeline.AtU/Root/Payload/shoppingList.app/Frameworks/libswiftCore.dylib'
+2018-05-03 08:14:18 +0000  /var/folders/75/4b80cfbd5cx51m7f6p1nc74w0000gp/T/XcodeDistPipeline.AtU/Root/Payload/shoppingList.app/Frameworks/libswiftCore.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCore]
+2018-05-03 08:14:18 +0000  2018-05-03 08:14:18 +0000  
+
+2018-05-03 08:14:18 +0000  2018-05-03 08:14:18 +0000  
+
+2018-05-03 08:14:18 +0000  /usr/bin/codesign exited with 0
+2018-05-03 08:14:18 +0000  
+2018-05-03 08:14:18 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fba5c7c87f0 'com.apple.dt.runtime.swiftCoreData' '<DVTFilePath:0x7fba7c23a1c0:'/Users/Mohan/Library/Developer/Xcode/Archives/2018-05-03/shoppingList 03-05-18, 1.43 PM.xcarchive/Products/Applications/shoppingList.app/Frameworks/libswiftCoreData.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7fba5e131b00>: {
+}
+2018-05-03 08:14:18 +0000  Entitlements for <IDEDistributionItem: 0x7fba5c7c87f0 'com.apple.dt.runtime.swiftCoreData' '<DVTFilePath:0x7fba7c23a1c0:'/Users/Mohan/Library/Developer/Xcode/Archives/2018-05-03/shoppingList 03-05-18, 1.43 PM.xcarchive/Products/Applications/shoppingList.app/Frameworks/libswiftCoreData.dylib'>'>: {
+}
+2018-05-03 08:14:18 +0000  Writing entitlements for <IDEDistributionItem: 0x7fba5c7c87f0 'com.apple.dt.runtime.swiftCoreData' '<DVTFilePath:0x7fba7c23a1c0:'/Users/Mohan/Library/Developer/Xcode/Archives/2018-05-03/shoppingList 03-05-18, 1.43 PM.xcarchive/Products/Applications/shoppingList.app/Frameworks/libswiftCoreData.dylib'>'> to: /var/folders/75/4b80cfbd5cx51m7f6p1nc74w0000gp/T/XcodeDistPipeline.AtU/entitlements7N7QWA
+2018-05-03 08:14:18 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'DE00227998C752E8C973CEED3A49E98A6F18C48F' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/75/4b80cfbd5cx51m7f6p1nc74w0000gp/T/XcodeDistPipeline.AtU/entitlements7N7QWA' '/var/folders/75/4b80cfbd5cx51m7f6p1nc74w0000gp/T/XcodeDistPipeline.AtU/Root/Payload/shoppingList.app/Frameworks/libswiftCoreData.dylib'
+2018-05-03 08:14:19 +0000  /var/folders/75/4b80cfbd5cx51m7f6p1nc74w0000gp/T/XcodeDistPipeline.AtU/Root/Payload/shoppingList.app/Frameworks/libswiftCoreData.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCoreData]
+2018-05-03 08:14:19 +0000  2018-05-03 08:14:19 +0000  
+
+2018-05-03 08:14:19 +0000  2018-05-03 08:14:19 +0000  
+
+2018-05-03 08:14:19 +0000  
+2018-05-03 08:14:19 +0000  
+2018-05-03 08:14:19 +0000  /usr/bin/codesign exited with 02018-05-03 08:14:19 +0000  
+2018-05-03 08:14:19 +0000  
+
+2018-05-03 08:14:19 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fba5e0aabc0 'com.apple.dt.runtime.swiftCoreFoundation' '<DVTFilePath:0x7fba5c4f0230:'/Users/Mohan/Library/Developer/Xcode/Archives/2018-05-03/shoppingList 03-05-18, 1.43 PM.xcarchive/Products/Applications/shoppingList.app/Frameworks/libswiftCoreFoundation.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7fba79937650>: {
+}
+2018-05-03 08:14:19 +0000  Entitlements for <IDEDistributionItem: 0x7fba5e0aabc0 'com.apple.dt.runtime.swiftCoreFoundation' '<DVTFilePath:0x7fba5c4f0230:'/Users/Mohan/Library/Developer/Xcode/Archives/2018-05-03/shoppingList 03-05-18, 1.43 PM.xcarchive/Products/Applications/shoppingList.app/Frameworks/libswiftCoreFoundation.dylib'>'>: {
+}
+2018-05-03 08:14:19 +0000  Writing entitlements for <IDEDistributionItem: 0x7fba5e0aabc0 'com.apple.dt.runtime.swiftCoreFoundation' '<DVTFilePath:0x7fba5c4f0230:'/Users/Mohan/Library/Developer/Xcode/Archives/2018-05-03/shoppingList 03-05-18, 1.43 PM.xcarchive/Products/Applications/shoppingList.app/Frameworks/libswiftCoreFoundation.dylib'>'> to: /var/folders/75/4b80cfbd5cx51m7f6p1nc74w0000gp/T/XcodeDistPipeline.AtU/entitlements1fz9YN
+2018-05-03 08:14:19 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'DE00227998C752E8C973CEED3A49E98A6F18C48F' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/75/4b80cfbd5cx51m7f6p1nc74w0000gp/T/XcodeDistPipeline.AtU/entitlements1fz9YN' '/var/folders/75/4b80cfbd5cx51m7f6p1nc74w0000gp/T/XcodeDistPipeline.AtU/Root/Payload/shoppingList.app/Frameworks/libswiftCoreFoundation.dylib'
+2018-05-03 08:14:19 +0000  /var/folders/75/4b80cfbd5cx51m7f6p1nc74w0000gp/T/XcodeDistPipeline.AtU/Root/Payload/shoppingList.app/Frameworks/libswiftCoreFoundation.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCoreFoundation]
+2018-05-03 08:14:19 +0000  2018-05-03 08:14:19 +0000  
+
+2018-05-03 08:14:19 +0000  2018-05-03 08:14:19 +0000  
+
+2018-05-03 08:14:19 +0000  
+2018-05-03 08:14:19 +0000  /usr/bin/codesign exited with 02018-05-03 08:14:19 +0000  
+
+2018-05-03 08:14:19 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fba5c7c9910 'com.apple.dt.runtime.swiftCoreGraphics' '<DVTFilePath:0x7fba7b46e0a0:'/Users/Mohan/Library/Developer/Xcode/Archives/2018-05-03/shoppingList 03-05-18, 1.43 PM.xcarchive/Products/Applications/shoppingList.app/Frameworks/libswiftCoreGraphics.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7fba7459ba30>: {
+}
+2018-05-03 08:14:19 +0000  Entitlements for <IDEDistributionItem: 0x7fba5c7c9910 'com.apple.dt.runtime.swiftCoreGraphics' '<DVTFilePath:0x7fba7b46e0a0:'/Users/Mohan/Library/Developer/Xcode/Archives/2018-05-03/shoppingList 03-05-18, 1.43 PM.xcarchive/Products/Applications/shoppingList.app/Frameworks/libswiftCoreGraphics.dylib'>'>: {
+}
+2018-05-03 08:14:19 +0000  Writing entitlements for <IDEDistributionItem: 0x7fba5c7c9910 'com.apple.dt.runtime.swiftCoreGraphics' '<DVTFilePath:0x7fba7b46e0a0:'/Users/Mohan/Library/Developer/Xcode/Archives/2018-05-03/shoppingList 03-05-18, 1.43 PM.xcarchive/Products/Applications/shoppingList.app/Frameworks/libswiftCoreGraphics.dylib'>'> to: /var/folders/75/4b80cfbd5cx51m7f6p1nc74w0000gp/T/XcodeDistPipeline.AtU/entitlementsl5OY5Y
+2018-05-03 08:14:19 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'DE00227998C752E8C973CEED3A49E98A6F18C48F' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/75/4b80cfbd5cx51m7f6p1nc74w0000gp/T/XcodeDistPipeline.AtU/entitlementsl5OY5Y' '/var/folders/75/4b80cfbd5cx51m7f6p1nc74w0000gp/T/XcodeDistPipeline.AtU/Root/Payload/shoppingList.app/Frameworks/libswiftCoreGraphics.dylib'
+2018-05-03 08:14:19 +0000  /var/folders/75/4b80cfbd5cx51m7f6p1nc74w0000gp/T/XcodeDistPipeline.AtU/Root/Payload/shoppingList.app/Frameworks/libswiftCoreGraphics.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCoreGraphics]
+2018-05-03 08:14:19 +0000  2018-05-03 08:14:19 +0000  
+
+2018-05-03 08:14:19 +0000  
+2018-05-03 08:14:19 +0000  
+2018-05-03 08:14:19 +0000  
+2018-05-03 08:14:19 +0000  
+2018-05-03 08:14:19 +0000  2018-05-03 08:14:19 +0000  /usr/bin/codesign exited with 0
+2018-05-03 08:14:19 +0000  
+
+2018-05-03 08:14:19 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fba7c14cbc0 'com.apple.dt.runtime.swiftCoreImage' '<DVTFilePath:0x7fba710b72d0:'/Users/Mohan/Library/Developer/Xcode/Archives/2018-05-03/shoppingList 03-05-18, 1.43 PM.xcarchive/Products/Applications/shoppingList.app/Frameworks/libswiftCoreImage.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7fba7459bdf0>: {
+}
+2018-05-03 08:14:19 +0000  Entitlements for <IDEDistributionItem: 0x7fba7c14cbc0 'com.apple.dt.runtime.swiftCoreImage' '<DVTFilePath:0x7fba710b72d0:'/Users/Mohan/Library/Developer/Xcode/Archives/2018-05-03/shoppingList 03-05-18, 1.43 PM.xcarchive/Products/Applications/shoppingList.app/Frameworks/libswiftCoreImage.dylib'>'>: {
+}
+2018-05-03 08:14:19 +0000  Writing entitlements for <IDEDistributionItem: 0x7fba7c14cbc0 'com.apple.dt.runtime.swiftCoreImage' '<DVTFilePath:0x7fba710b72d0:'/Users/Mohan/Library/Developer/Xcode/Archives/2018-05-03/shoppingList 03-05-18, 1.43 PM.xcarchive/Products/Applications/shoppingList.app/Frameworks/libswiftCoreImage.dylib'>'> to: /var/folders/75/4b80cfbd5cx51m7f6p1nc74w0000gp/T/XcodeDistPipeline.AtU/entitlementsAItBXD
+2018-05-03 08:14:19 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'DE00227998C752E8C973CEED3A49E98A6F18C48F' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/75/4b80cfbd5cx51m7f6p1nc74w0000gp/T/XcodeDistPipeline.AtU/entitlementsAItBXD' '/var/folders/75/4b80cfbd5cx51m7f6p1nc74w0000gp/T/XcodeDistPipeline.AtU/Root/Payload/shoppingList.app/Frameworks/libswiftCoreImage.dylib'
+2018-05-03 08:14:19 +0000  /var/folders/75/4b80cfbd5cx51m7f6p1nc74w0000gp/T/XcodeDistPipeline.AtU/Root/Payload/shoppingList.app/Frameworks/libswiftCoreImage.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCoreImage]
+2018-05-03 08:14:19 +0000  
+2018-05-03 08:14:19 +0000  
+2018-05-03 08:14:19 +0000  
+2018-05-03 08:14:19 +0000  
+2018-05-03 08:14:19 +0000  2018-05-03 08:14:19 +0000  
+
+2018-05-03 08:14:19 +0000  2018-05-03 08:14:19 +0000  
+
+2018-05-03 08:14:19 +0000  
+2018-05-03 08:14:19 +0000  
+2018-05-03 08:14:19 +0000  
+2018-05-03 08:14:19 +0000  
+2018-05-03 08:14:19 +0000  
+2018-05-03 08:14:19 +0000  2018-05-03 08:14:19 +0000  /usr/bin/codesign exited with 0
+
+2018-05-03 08:14:19 +0000  
+2018-05-03 08:14:19 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fba5c7d1cc0 'com.apple.dt.runtime.swiftDarwin' '<DVTFilePath:0x7fba7b2dde60:'/Users/Mohan/Library/Developer/Xcode/Archives/2018-05-03/shoppingList 03-05-18, 1.43 PM.xcarchive/Products/Applications/shoppingList.app/Frameworks/libswiftDarwin.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7fba5e102bd0>: {
+}
+2018-05-03 08:14:19 +0000  Entitlements for <IDEDistributionItem: 0x7fba5c7d1cc0 'com.apple.dt.runtime.swiftDarwin' '<DVTFilePath:0x7fba7b2dde60:'/Users/Mohan/Library/Developer/Xcode/Archives/2018-05-03/shoppingList 03-05-18, 1.43 PM.xcarchive/Products/Applications/shoppingList.app/Frameworks/libswiftDarwin.dylib'>'>: {
+}
+2018-05-03 08:14:19 +0000  Writing entitlements for <IDEDistributionItem: 0x7fba5c7d1cc0 'com.apple.dt.runtime.swiftDarwin' '<DVTFilePath:0x7fba7b2dde60:'/Users/Mohan/Library/Developer/Xcode/Archives/2018-05-03/shoppingList 03-05-18, 1.43 PM.xcarchive/Products/Applications/shoppingList.app/Frameworks/libswiftDarwin.dylib'>'> to: /var/folders/75/4b80cfbd5cx51m7f6p1nc74w0000gp/T/XcodeDistPipeline.AtU/entitlementsPozifK
+2018-05-03 08:14:19 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'DE00227998C752E8C973CEED3A49E98A6F18C48F' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/75/4b80cfbd5cx51m7f6p1nc74w0000gp/T/XcodeDistPipeline.AtU/entitlementsPozifK' '/var/folders/75/4b80cfbd5cx51m7f6p1nc74w0000gp/T/XcodeDistPipeline.AtU/Root/Payload/shoppingList.app/Frameworks/libswiftDarwin.dylib'
+2018-05-03 08:14:19 +0000  /var/folders/75/4b80cfbd5cx51m7f6p1nc74w0000gp/T/XcodeDistPipeline.AtU/Root/Payload/shoppingList.app/Frameworks/libswiftDarwin.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftDarwin]
+2018-05-03 08:14:19 +0000  2018-05-03 08:14:19 +0000  
+
+2018-05-03 08:14:19 +0000  
+2018-05-03 08:14:19 +0000  2018-05-03 08:14:19 +0000  /usr/bin/codesign exited with 0
+
+2018-05-03 08:14:19 +0000  
+2018-05-03 08:14:19 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fba7c14c280 'com.apple.dt.runtime.swiftDispatch' '<DVTFilePath:0x7fba74133d70:'/Users/Mohan/Library/Developer/Xcode/Archives/2018-05-03/shoppingList 03-05-18, 1.43 PM.xcarchive/Products/Applications/shoppingList.app/Frameworks/libswiftDispatch.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7fba7c152550>: {
+}
+2018-05-03 08:14:19 +0000  Entitlements for <IDEDistributionItem: 0x7fba7c14c280 'com.apple.dt.runtime.swiftDispatch' '<DVTFilePath:0x7fba74133d70:'/Users/Mohan/Library/Developer/Xcode/Archives/2018-05-03/shoppingList 03-05-18, 1.43 PM.xcarchive/Products/Applications/shoppingList.app/Frameworks/libswiftDispatch.dylib'>'>: {
+}
+2018-05-03 08:14:19 +0000  Writing entitlements for <IDEDistributionItem: 0x7fba7c14c280 'com.apple.dt.runtime.swiftDispatch' '<DVTFilePath:0x7fba74133d70:'/Users/Mohan/Library/Developer/Xcode/Archives/2018-05-03/shoppingList 03-05-18, 1.43 PM.xcarchive/Products/Applications/shoppingList.app/Frameworks/libswiftDispatch.dylib'>'> to: /var/folders/75/4b80cfbd5cx51m7f6p1nc74w0000gp/T/XcodeDistPipeline.AtU/entitlements9DaOc6
+2018-05-03 08:14:19 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'DE00227998C752E8C973CEED3A49E98A6F18C48F' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/75/4b80cfbd5cx51m7f6p1nc74w0000gp/T/XcodeDistPipeline.AtU/entitlements9DaOc6' '/var/folders/75/4b80cfbd5cx51m7f6p1nc74w0000gp/T/XcodeDistPipeline.AtU/Root/Payload/shoppingList.app/Frameworks/libswiftDispatch.dylib'
+2018-05-03 08:14:20 +0000  /var/folders/75/4b80cfbd5cx51m7f6p1nc74w0000gp/T/XcodeDistPipeline.AtU/Root/Payload/shoppingList.app/Frameworks/libswiftDispatch.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftDispatch]
+2018-05-03 08:14:20 +0000  2018-05-03 08:14:20 +0000  
+
+2018-05-03 08:14:20 +0000  2018-05-03 08:14:20 +0000  
+
+2018-05-03 08:14:20 +0000  /usr/bin/codesign exited with 02018-05-03 08:14:20 +0000  
+
+2018-05-03 08:14:20 +0000  
+2018-05-03 08:14:20 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fba7b0426d0 'com.apple.dt.runtime.swiftFoundation' '<DVTFilePath:0x7fba5c7ba0c0:'/Users/Mohan/Library/Developer/Xcode/Archives/2018-05-03/shoppingList 03-05-18, 1.43 PM.xcarchive/Products/Applications/shoppingList.app/Frameworks/libswiftFoundation.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7fba745932a0>: {
+}
+2018-05-03 08:14:20 +0000  Entitlements for <IDEDistributionItem: 0x7fba7b0426d0 'com.apple.dt.runtime.swiftFoundation' '<DVTFilePath:0x7fba5c7ba0c0:'/Users/Mohan/Library/Developer/Xcode/Archives/2018-05-03/shoppingList 03-05-18, 1.43 PM.xcarchive/Products/Applications/shoppingList.app/Frameworks/libswiftFoundation.dylib'>'>: {
+}
+2018-05-03 08:14:20 +0000  Writing entitlements for <IDEDistributionItem: 0x7fba7b0426d0 'com.apple.dt.runtime.swiftFoundation' '<DVTFilePath:0x7fba5c7ba0c0:'/Users/Mohan/Library/Developer/Xcode/Archives/2018-05-03/shoppingList 03-05-18, 1.43 PM.xcarchive/Products/Applications/shoppingList.app/Frameworks/libswiftFoundation.dylib'>'> to: /var/folders/75/4b80cfbd5cx51m7f6p1nc74w0000gp/T/XcodeDistPipeline.AtU/entitlementsd0dBYU
+2018-05-03 08:14:20 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'DE00227998C752E8C973CEED3A49E98A6F18C48F' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/75/4b80cfbd5cx51m7f6p1nc74w0000gp/T/XcodeDistPipeline.AtU/entitlementsd0dBYU' '/var/folders/75/4b80cfbd5cx51m7f6p1nc74w0000gp/T/XcodeDistPipeline.AtU/Root/Payload/shoppingList.app/Frameworks/libswiftFoundation.dylib'
+2018-05-03 08:14:20 +0000  /var/folders/75/4b80cfbd5cx51m7f6p1nc74w0000gp/T/XcodeDistPipeline.AtU/Root/Payload/shoppingList.app/Frameworks/libswiftFoundation.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftFoundation]
+2018-05-03 08:14:20 +0000  
+2018-05-03 08:14:20 +0000  
+2018-05-03 08:14:20 +0000  
+2018-05-03 08:14:20 +0000  
+2018-05-03 08:14:20 +0000  
+2018-05-03 08:14:20 +0000  
+2018-05-03 08:14:20 +0000  
+2018-05-03 08:14:20 +0000  2018-05-03 08:14:20 +0000  /usr/bin/codesign exited with 0
+2018-05-03 08:14:20 +0000  
+
+2018-05-03 08:14:20 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fba5c7c4090 'com.apple.dt.runtime.swiftMetal' '<DVTFilePath:0x7fba5c436770:'/Users/Mohan/Library/Developer/Xcode/Archives/2018-05-03/shoppingList 03-05-18, 1.43 PM.xcarchive/Products/Applications/shoppingList.app/Frameworks/libswiftMetal.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7fba5e0ac180>: {
+}
+2018-05-03 08:14:20 +0000  Entitlements for <IDEDistributionItem: 0x7fba5c7c4090 'com.apple.dt.runtime.swiftMetal' '<DVTFilePath:0x7fba5c436770:'/Users/Mohan/Library/Developer/Xcode/Archives/2018-05-03/shoppingList 03-05-18, 1.43 PM.xcarchive/Products/Applications/shoppingList.app/Frameworks/libswiftMetal.dylib'>'>: {
+}
+2018-05-03 08:14:20 +0000  Writing entitlements for <IDEDistributionItem: 0x7fba5c7c4090 'com.apple.dt.runtime.swiftMetal' '<DVTFilePath:0x7fba5c436770:'/Users/Mohan/Library/Developer/Xcode/Archives/2018-05-03/shoppingList 03-05-18, 1.43 PM.xcarchive/Products/Applications/shoppingList.app/Frameworks/libswiftMetal.dylib'>'> to: /var/folders/75/4b80cfbd5cx51m7f6p1nc74w0000gp/T/XcodeDistPipeline.AtU/entitlementsUiY1RV
+2018-05-03 08:14:20 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'DE00227998C752E8C973CEED3A49E98A6F18C48F' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/75/4b80cfbd5cx51m7f6p1nc74w0000gp/T/XcodeDistPipeline.AtU/entitlementsUiY1RV' '/var/folders/75/4b80cfbd5cx51m7f6p1nc74w0000gp/T/XcodeDistPipeline.AtU/Root/Payload/shoppingList.app/Frameworks/libswiftMetal.dylib'
+2018-05-03 08:14:20 +0000  /var/folders/75/4b80cfbd5cx51m7f6p1nc74w0000gp/T/XcodeDistPipeline.AtU/Root/Payload/shoppingList.app/Frameworks/libswiftMetal.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftMetal]
+2018-05-03 08:14:20 +0000  2018-05-03 08:14:20 +0000  
+
+2018-05-03 08:14:20 +0000  
+2018-05-03 08:14:20 +0000  2018-05-03 08:14:20 +0000  
+
+2018-05-03 08:14:20 +0000  
+2018-05-03 08:14:20 +0000  /usr/bin/codesign exited with 0
+2018-05-03 08:14:20 +0000  2018-05-03 08:14:20 +0000  
+
+2018-05-03 08:14:20 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fba5c7cf4d0 'com.apple.dt.runtime.swiftObjectiveC' '<DVTFilePath:0x7fba5e137f10:'/Users/Mohan/Library/Developer/Xcode/Archives/2018-05-03/shoppingList 03-05-18, 1.43 PM.xcarchive/Products/Applications/shoppingList.app/Frameworks/libswiftObjectiveC.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7fba5e0a1680>: {
+}
+2018-05-03 08:14:20 +0000  Entitlements for <IDEDistributionItem: 0x7fba5c7cf4d0 'com.apple.dt.runtime.swiftObjectiveC' '<DVTFilePath:0x7fba5e137f10:'/Users/Mohan/Library/Developer/Xcode/Archives/2018-05-03/shoppingList 03-05-18, 1.43 PM.xcarchive/Products/Applications/shoppingList.app/Frameworks/libswiftObjectiveC.dylib'>'>: {
+}
+2018-05-03 08:14:20 +0000  Writing entitlements for <IDEDistributionItem: 0x7fba5c7cf4d0 'com.apple.dt.runtime.swiftObjectiveC' '<DVTFilePath:0x7fba5e137f10:'/Users/Mohan/Library/Developer/Xcode/Archives/2018-05-03/shoppingList 03-05-18, 1.43 PM.xcarchive/Products/Applications/shoppingList.app/Frameworks/libswiftObjectiveC.dylib'>'> to: /var/folders/75/4b80cfbd5cx51m7f6p1nc74w0000gp/T/XcodeDistPipeline.AtU/entitlements5da5Tx
+2018-05-03 08:14:20 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'DE00227998C752E8C973CEED3A49E98A6F18C48F' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/75/4b80cfbd5cx51m7f6p1nc74w0000gp/T/XcodeDistPipeline.AtU/entitlements5da5Tx' '/var/folders/75/4b80cfbd5cx51m7f6p1nc74w0000gp/T/XcodeDistPipeline.AtU/Root/Payload/shoppingList.app/Frameworks/libswiftObjectiveC.dylib'
+2018-05-03 08:14:20 +0000  /var/folders/75/4b80cfbd5cx51m7f6p1nc74w0000gp/T/XcodeDistPipeline.AtU/Root/Payload/shoppingList.app/Frameworks/libswiftObjectiveC.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftObjectiveC]
+2018-05-03 08:14:20 +0000  2018-05-03 08:14:20 +0000  
+
+2018-05-03 08:14:20 +0000  2018-05-03 08:14:20 +0000  
+
+2018-05-03 08:14:20 +0000  
+2018-05-03 08:14:20 +0000  
+2018-05-03 08:14:20 +0000  /usr/bin/codesign exited with 0
+2018-05-03 08:14:20 +0000  2018-05-03 08:14:20 +0000  
+
+2018-05-03 08:14:20 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fba7139f930 'com.apple.dt.runtime.swiftQuartzCore' '<DVTFilePath:0x7fba7a7d0140:'/Users/Mohan/Library/Developer/Xcode/Archives/2018-05-03/shoppingList 03-05-18, 1.43 PM.xcarchive/Products/Applications/shoppingList.app/Frameworks/libswiftQuartzCore.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7fba5e0a51d0>: {
+}
+2018-05-03 08:14:20 +0000  Entitlements for <IDEDistributionItem: 0x7fba7139f930 'com.apple.dt.runtime.swiftQuartzCore' '<DVTFilePath:0x7fba7a7d0140:'/Users/Mohan/Library/Developer/Xcode/Archives/2018-05-03/shoppingList 03-05-18, 1.43 PM.xcarchive/Products/Applications/shoppingList.app/Frameworks/libswiftQuartzCore.dylib'>'>: {
+}
+2018-05-03 08:14:20 +0000  Writing entitlements for <IDEDistributionItem: 0x7fba7139f930 'com.apple.dt.runtime.swiftQuartzCore' '<DVTFilePath:0x7fba7a7d0140:'/Users/Mohan/Library/Developer/Xcode/Archives/2018-05-03/shoppingList 03-05-18, 1.43 PM.xcarchive/Products/Applications/shoppingList.app/Frameworks/libswiftQuartzCore.dylib'>'> to: /var/folders/75/4b80cfbd5cx51m7f6p1nc74w0000gp/T/XcodeDistPipeline.AtU/entitlements1W2Sp5
+2018-05-03 08:14:20 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'DE00227998C752E8C973CEED3A49E98A6F18C48F' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/75/4b80cfbd5cx51m7f6p1nc74w0000gp/T/XcodeDistPipeline.AtU/entitlements1W2Sp5' '/var/folders/75/4b80cfbd5cx51m7f6p1nc74w0000gp/T/XcodeDistPipeline.AtU/Root/Payload/shoppingList.app/Frameworks/libswiftQuartzCore.dylib'
+2018-05-03 08:14:21 +0000  /var/folders/75/4b80cfbd5cx51m7f6p1nc74w0000gp/T/XcodeDistPipeline.AtU/Root/Payload/shoppingList.app/Frameworks/libswiftQuartzCore.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftQuartzCore]
+2018-05-03 08:14:21 +0000  2018-05-03 08:14:21 +0000  
+
+2018-05-03 08:14:21 +0000  2018-05-03 08:14:21 +0000  
+
+2018-05-03 08:14:21 +0000  
+2018-05-03 08:14:21 +0000  
+2018-05-03 08:14:21 +0000  /usr/bin/codesign exited with 0
+2018-05-03 08:14:21 +0000  
+2018-05-03 08:14:21 +0000  
+2018-05-03 08:14:21 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fba5c7cb550 'com.apple.dt.runtime.swiftUIKit' '<DVTFilePath:0x7fba5c4c3a20:'/Users/Mohan/Library/Developer/Xcode/Archives/2018-05-03/shoppingList 03-05-18, 1.43 PM.xcarchive/Products/Applications/shoppingList.app/Frameworks/libswiftUIKit.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7fba7b091a00>: {
+}
+2018-05-03 08:14:21 +0000  Entitlements for <IDEDistributionItem: 0x7fba5c7cb550 'com.apple.dt.runtime.swiftUIKit' '<DVTFilePath:0x7fba5c4c3a20:'/Users/Mohan/Library/Developer/Xcode/Archives/2018-05-03/shoppingList 03-05-18, 1.43 PM.xcarchive/Products/Applications/shoppingList.app/Frameworks/libswiftUIKit.dylib'>'>: {
+}
+2018-05-03 08:14:21 +0000  Writing entitlements for <IDEDistributionItem: 0x7fba5c7cb550 'com.apple.dt.runtime.swiftUIKit' '<DVTFilePath:0x7fba5c4c3a20:'/Users/Mohan/Library/Developer/Xcode/Archives/2018-05-03/shoppingList 03-05-18, 1.43 PM.xcarchive/Products/Applications/shoppingList.app/Frameworks/libswiftUIKit.dylib'>'> to: /var/folders/75/4b80cfbd5cx51m7f6p1nc74w0000gp/T/XcodeDistPipeline.AtU/entitlementsne8bHo
+2018-05-03 08:14:21 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'DE00227998C752E8C973CEED3A49E98A6F18C48F' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/75/4b80cfbd5cx51m7f6p1nc74w0000gp/T/XcodeDistPipeline.AtU/entitlementsne8bHo' '/var/folders/75/4b80cfbd5cx51m7f6p1nc74w0000gp/T/XcodeDistPipeline.AtU/Root/Payload/shoppingList.app/Frameworks/libswiftUIKit.dylib'
+2018-05-03 08:14:21 +0000  /var/folders/75/4b80cfbd5cx51m7f6p1nc74w0000gp/T/XcodeDistPipeline.AtU/Root/Payload/shoppingList.app/Frameworks/libswiftUIKit.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftUIKit]
+2018-05-03 08:14:21 +0000  2018-05-03 08:14:21 +0000  
+
+2018-05-03 08:14:21 +0000  
+2018-05-03 08:14:21 +0000  
+2018-05-03 08:14:21 +0000  
+2018-05-03 08:14:21 +0000  /usr/bin/codesign exited with 0
+2018-05-03 08:14:21 +0000  
+2018-05-03 08:14:21 +0000  
+2018-05-03 08:14:21 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fba75cf95a0 'com.apple.dt.runtime.swiftos' '<DVTFilePath:0x7fba7b2d3a70:'/Users/Mohan/Library/Developer/Xcode/Archives/2018-05-03/shoppingList 03-05-18, 1.43 PM.xcarchive/Products/Applications/shoppingList.app/Frameworks/libswiftos.dylib'>'> from <IDEiCloudEntitlementsProcessor: 0x7fba5e0a7920>: {
+}
+2018-05-03 08:14:21 +0000  Entitlements for <IDEDistributionItem: 0x7fba75cf95a0 'com.apple.dt.runtime.swiftos' '<DVTFilePath:0x7fba7b2d3a70:'/Users/Mohan/Library/Developer/Xcode/Archives/2018-05-03/shoppingList 03-05-18, 1.43 PM.xcarchive/Products/Applications/shoppingList.app/Frameworks/libswiftos.dylib'>'>: {
+}
+2018-05-03 08:14:21 +0000  Writing entitlements for <IDEDistributionItem: 0x7fba75cf95a0 'com.apple.dt.runtime.swiftos' '<DVTFilePath:0x7fba7b2d3a70:'/Users/Mohan/Library/Developer/Xcode/Archives/2018-05-03/shoppingList 03-05-18, 1.43 PM.xcarchive/Products/Applications/shoppingList.app/Frameworks/libswiftos.dylib'>'> to: /var/folders/75/4b80cfbd5cx51m7f6p1nc74w0000gp/T/XcodeDistPipeline.AtU/entitlementsBOYN58
+2018-05-03 08:14:21 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'DE00227998C752E8C973CEED3A49E98A6F18C48F' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/75/4b80cfbd5cx51m7f6p1nc74w0000gp/T/XcodeDistPipeline.AtU/entitlementsBOYN58' '/var/folders/75/4b80cfbd5cx51m7f6p1nc74w0000gp/T/XcodeDistPipeline.AtU/Root/Payload/shoppingList.app/Frameworks/libswiftos.dylib'
+2018-05-03 08:14:21 +0000  /var/folders/75/4b80cfbd5cx51m7f6p1nc74w0000gp/T/XcodeDistPipeline.AtU/Root/Payload/shoppingList.app/Frameworks/libswiftos.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftos]
+2018-05-03 08:14:21 +0000  2018-05-03 08:14:21 +0000  
+
+2018-05-03 08:14:21 +0000  2018-05-03 08:14:21 +0000  
+
+2018-05-03 08:14:21 +0000  
+2018-05-03 08:14:21 +0000  /usr/bin/codesign exited with 0
+2018-05-03 08:14:21 +0000  
+2018-05-03 08:14:21 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fba7c14c4c0 'org.cocoapods.nanopb' '<DVTFilePath:0x7fba5c74aec0:'/Users/Mohan/Library/Developer/Xcode/Archives/2018-05-03/shoppingList 03-05-18, 1.43 PM.xcarchive/Products/Applications/shoppingList.app/Frameworks/nanopb.framework'>'> from <IDEiCloudEntitlementsProcessor: 0x7fba5e1366c0>: {
+}
+2018-05-03 08:14:21 +0000  Entitlements for <IDEDistributionItem: 0x7fba7c14c4c0 'org.cocoapods.nanopb' '<DVTFilePath:0x7fba5c74aec0:'/Users/Mohan/Library/Developer/Xcode/Archives/2018-05-03/shoppingList 03-05-18, 1.43 PM.xcarchive/Products/Applications/shoppingList.app/Frameworks/nanopb.framework'>'>: {
+}
+2018-05-03 08:14:21 +0000  Writing entitlements for <IDEDistributionItem: 0x7fba7c14c4c0 'org.cocoapods.nanopb' '<DVTFilePath:0x7fba5c74aec0:'/Users/Mohan/Library/Developer/Xcode/Archives/2018-05-03/shoppingList 03-05-18, 1.43 PM.xcarchive/Products/Applications/shoppingList.app/Frameworks/nanopb.framework'>'> to: /var/folders/75/4b80cfbd5cx51m7f6p1nc74w0000gp/T/XcodeDistPipeline.AtU/entitlementslMMoYj
+2018-05-03 08:14:21 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'DE00227998C752E8C973CEED3A49E98A6F18C48F' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/75/4b80cfbd5cx51m7f6p1nc74w0000gp/T/XcodeDistPipeline.AtU/entitlementslMMoYj' '/var/folders/75/4b80cfbd5cx51m7f6p1nc74w0000gp/T/XcodeDistPipeline.AtU/Root/Payload/shoppingList.app/Frameworks/nanopb.framework'
+2018-05-03 08:14:21 +0000  /var/folders/75/4b80cfbd5cx51m7f6p1nc74w0000gp/T/XcodeDistPipeline.AtU/Root/Payload/shoppingList.app/Frameworks/nanopb.framework: signed bundle with Mach-O universal (arm64) [org.cocoapods.nanopb]
+2018-05-03 08:14:21 +0000  
+2018-05-03 08:14:21 +0000  
+2018-05-03 08:14:21 +0000  
+2018-05-03 08:14:21 +0000  
+2018-05-03 08:14:21 +0000  
+2018-05-03 08:14:21 +0000  
+2018-05-03 08:14:21 +0000  2018-05-03 08:14:21 +0000  
+2018-05-03 08:14:21 +0000  /usr/bin/codesign exited with 0
+2018-05-03 08:14:21 +0000  
+
+2018-05-03 08:14:21 +0000  Applying entitlements delta for <IDEDistributionItem: 0x7fba7459bd80 'com.Mohan.shoppingList' '<DVTFilePath:0x7fba7c232c70:'/Users/Mohan/Library/Developer/Xcode/Archives/2018-05-03/shoppingList 03-05-18, 1.43 PM.xcarchive/Products/Applications/shoppingList.app'>'> from <IDEiCloudEntitlementsProcessor: 0x7fba5e0605f0>: {
+}
+2018-05-03 08:14:21 +0000  Entitlements for <IDEDistributionItem: 0x7fba7459bd80 'com.Mohan.shoppingList' '<DVTFilePath:0x7fba7c232c70:'/Users/Mohan/Library/Developer/Xcode/Archives/2018-05-03/shoppingList 03-05-18, 1.43 PM.xcarchive/Products/Applications/shoppingList.app'>'>: {
+    "application-identifier" = "9U7Y45UZ8Q.com.Mohan.shoppingList";
+    "com.apple.developer.team-identifier" = 9U7Y45UZ8Q;
+    "get-task-allow" = 1;
+    "keychain-access-groups" =     (
+        "9U7Y45UZ8Q.com.Mohan.shoppingList"
+    );
+}
+2018-05-03 08:14:21 +0000  Writing entitlements for <IDEDistributionItem: 0x7fba7459bd80 'com.Mohan.shoppingList' '<DVTFilePath:0x7fba7c232c70:'/Users/Mohan/Library/Developer/Xcode/Archives/2018-05-03/shoppingList 03-05-18, 1.43 PM.xcarchive/Products/Applications/shoppingList.app'>'> to: /var/folders/75/4b80cfbd5cx51m7f6p1nc74w0000gp/T/XcodeDistPipeline.AtU/entitlementsp31UDX
+2018-05-03 08:14:21 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'DE00227998C752E8C973CEED3A49E98A6F18C48F' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/75/4b80cfbd5cx51m7f6p1nc74w0000gp/T/XcodeDistPipeline.AtU/entitlementsp31UDX' '/var/folders/75/4b80cfbd5cx51m7f6p1nc74w0000gp/T/XcodeDistPipeline.AtU/Root/Payload/shoppingList.app'
+2018-05-03 08:14:22 +0000  /var/folders/75/4b80cfbd5cx51m7f6p1nc74w0000gp/T/XcodeDistPipeline.AtU/Root/Payload/shoppingList.app: signed app bundle with Mach-O thin (arm64) [com.Mohan.shoppingList]
+2018-05-03 08:14:22 +0000  2018-05-03 08:14:22 +0000  
+
+2018-05-03 08:14:22 +0000  
+2018-05-03 08:14:22 +0000  
+2018-05-03 08:14:22 +0000  
+2018-05-03 08:14:22 +0000  /usr/bin/codesign exited with 0
+2018-05-03 08:14:22 +0000  
+2018-05-03 08:14:22 +0000  Processing step: IDEDistributionStreamingZipItemStep
+2018-05-03 08:14:22 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-05-03 08:14:22 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-05-03 08:14:22 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-05-03 08:14:22 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-05-03 08:14:22 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-05-03 08:14:22 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-05-03 08:14:22 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-05-03 08:14:22 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-05-03 08:14:22 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-05-03 08:14:22 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-05-03 08:14:22 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-05-03 08:14:22 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-05-03 08:14:22 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-05-03 08:14:22 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-05-03 08:14:22 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-05-03 08:14:22 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-05-03 08:14:22 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-05-03 08:14:22 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-05-03 08:14:22 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-05-03 08:14:22 +0000  Processing step: IDEDistributionCreateIPAStep
+2018-05-03 08:14:22 +0000  Running /usr/bin/ditto '-V' '-c' '-k' '--norsrc' '/var/folders/75/4b80cfbd5cx51m7f6p1nc74w0000gp/T/XcodeDistPipeline.AtU/Root' '/var/folders/75/4b80cfbd5cx51m7f6p1nc74w0000gp/T/XcodeDistPipeline.AtU/Packages/shoppingList.ipa'
+2018-05-03 08:14:22 +0000  >>> Copying /var/folders/75/4b80cfbd5cx51m7f6p1nc74w0000gp/T/XcodeDistPipeline.AtU/Root 
+2018-05-03 08:14:22 +0000  copying file ./Payload/shoppingList.app/_CodeSignature/CodeResources ... 
+2018-05-03 08:14:22 +0000  17601 bytes for ./Payload/shoppingList.app/_CodeSignature/CodeResources
+copying file ./Payload/shoppingList.app/listItemTableViewCell.nib ... 
+3415 bytes for ./Payload/shoppingList.app/listItemTableViewCell.nib
+copying file ./Payload/shoppingList.app/AppIcon60x60@2x.png ... 
+1372 bytes for ./Payload/shoppingList.app/AppIcon60x60@2x.png
+2018-05-03 08:14:22 +0000  copying file ./Payload/shoppingList.app/shoppingList.momd/VersionInfo.plist ... 
+213 bytes for ./Payload/shoppingList.app/shoppingList.momd/VersionInfo.plist
+copying file ./Payload/shoppingList.app/shoppingList.momd/shoppingList.omo ... 
+2018-05-03 08:14:22 +0000  2480 bytes for ./Payload/shoppingList.app/shoppingList.momd/shoppingList.omo
+copying file ./Payload/shoppingList.app/shoppingList.momd/shoppingList.mom ... 
+2018-05-03 08:14:22 +0000  1471 bytes for ./Payload/shoppingList.app/shoppingList.momd/shoppingList.mom
+2018-05-03 08:14:22 +0000  copying file ./Payload/shoppingList.app/GoogleService-Info.plist ... 
+895 bytes for ./Payload/shoppingList.app/GoogleService-Info.plist
+2018-05-03 08:14:22 +0000  copying file ./Payload/shoppingList.app/Base.lproj/Main.storyboardc/UIViewController-lwt-ey-VSO.nib ... 
+2018-05-03 08:14:22 +0000  985 bytes for ./Payload/shoppingList.app/Base.lproj/Main.storyboardc/UIViewController-lwt-ey-VSO.nib
+2018-05-03 08:14:22 +0000  copying file ./Payload/shoppingList.app/Base.lproj/Main.storyboardc/lwt-ey-VSO-view-MDD-mS-DE2.nib ... 
+2018-05-03 08:14:22 +0000  4994 bytes for ./Payload/shoppingList.app/Base.lproj/Main.storyboardc/lwt-ey-VSO-view-MDD-mS-DE2.nib
+copying file ./Payload/shoppingList.app/Base.lproj/Main.storyboardc/ViewController.nib ... 
+2018-05-03 08:14:22 +0000  1703 bytes for ./Payload/shoppingList.app/Base.lproj/Main.storyboardc/ViewController.nib
+copying file ./Payload/shoppingList.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib ... 
+2018-05-03 08:14:22 +0000  3988 bytes for ./Payload/shoppingList.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib
+copying file ./Payload/shoppingList.app/Base.lproj/Main.storyboardc/Info.plist ... 
+2018-05-03 08:14:22 +0000  292 bytes for ./Payload/shoppingList.app/Base.lproj/Main.storyboardc/Info.plist
+2018-05-03 08:14:22 +0000  copying file ./Payload/shoppingList.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+2018-05-03 08:14:22 +0000  1136 bytes for ./Payload/shoppingList.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+copying file ./Payload/shoppingList.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+2018-05-03 08:14:22 +0000  832 bytes for ./Payload/shoppingList.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+2018-05-03 08:14:22 +0000  copying file ./Payload/shoppingList.app/Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+258 bytes for ./Payload/shoppingList.app/Base.lproj/LaunchScreen.storyboardc/Info.plist
+2018-05-03 08:14:22 +0000  copying file ./Payload/shoppingList.app/archived-expanded-entitlements.xcent ... 
+2018-05-03 08:14:22 +0000  382 bytes for ./Payload/shoppingList.app/archived-expanded-entitlements.xcent
+copying file ./Payload/shoppingList.app/Assets.car ... 
+2018-05-03 08:14:22 +0000  420392 bytes for ./Payload/shoppingList.app/Assets.car
+copying file ./Payload/shoppingList.app/shoppingList ... 
+2018-05-03 08:14:22 +0000  1924320 bytes for ./Payload/shoppingList.app/shoppingList
+2018-05-03 08:14:22 +0000  copying file ./Payload/shoppingList.app/Frameworks/CoreDataManager.framework/_CodeSignature/CodeResources ... 
+2202 bytes for ./Payload/shoppingList.app/Frameworks/CoreDataManager.framework/_CodeSignature/CodeResources
+copying file ./Payload/shoppingList.app/Frameworks/CoreDataManager.framework/CoreDataManager ... 
+2018-05-03 08:14:22 +0000  335632 bytes for ./Payload/shoppingList.app/Frameworks/CoreDataManager.framework/CoreDataManager
+copying file ./Payload/shoppingList.app/Frameworks/CoreDataManager.framework/Info.plist ... 
+2018-05-03 08:14:22 +0000  751 bytes for ./Payload/shoppingList.app/Frameworks/CoreDataManager.framework/Info.plist
+copying file ./Payload/shoppingList.app/Frameworks/SwiftyJSON.framework/_CodeSignature/CodeResources ... 
+2202 bytes for ./Payload/shoppingList.app/Frameworks/SwiftyJSON.framework/_CodeSignature/CodeResources
+copying file ./Payload/shoppingList.app/Frameworks/SwiftyJSON.framework/SwiftyJSON ... 
+2018-05-03 08:14:22 +0000  432176 bytes for ./Payload/shoppingList.app/Frameworks/SwiftyJSON.framework/SwiftyJSON
+2018-05-03 08:14:22 +0000  copying file ./Payload/shoppingList.app/Frameworks/SwiftyJSON.framework/Info.plist ... 
+739 bytes for ./Payload/shoppingList.app/Frameworks/SwiftyJSON.framework/Info.plist
+copying file ./Payload/shoppingList.app/Frameworks/libswiftCoreImage.dylib ... 
+2018-05-03 08:14:22 +0000  209264 bytes for ./Payload/shoppingList.app/Frameworks/libswiftCoreImage.dylib
+copying file ./Payload/shoppingList.app/Frameworks/libswiftObjectiveC.dylib ... 
+2018-05-03 08:14:22 +0000  259344 bytes for ./Payload/shoppingList.app/Frameworks/libswiftObjectiveC.dylib
+copying file ./Payload/shoppingList.app/Frameworks/libswiftCore.dylib ... 
+2018-05-03 08:14:23 +0000  21080000 bytes for ./Payload/shoppingList.app/Frameworks/libswiftCore.dylib
+2018-05-03 08:14:23 +0000  copying file ./Payload/shoppingList.app/Frameworks/libswiftCoreGraphics.dylib ... 
+2018-05-03 08:14:23 +0000  578160 bytes for ./Payload/shoppingList.app/Frameworks/libswiftCoreGraphics.dylib
+copying file ./Payload/shoppingList.app/Frameworks/libswiftUIKit.dylib ... 
+2018-05-03 08:14:23 +0000  361888 bytes for ./Payload/shoppingList.app/Frameworks/libswiftUIKit.dylib
+copying file ./Payload/shoppingList.app/Frameworks/libswiftMetal.dylib ... 
+2018-05-03 08:14:23 +0000  251648 bytes for ./Payload/shoppingList.app/Frameworks/libswiftMetal.dylib
+copying file ./Payload/shoppingList.app/Frameworks/libswiftCoreData.dylib ... 
+2018-05-03 08:14:23 +0000  394752 bytes for ./Payload/shoppingList.app/Frameworks/libswiftCoreData.dylib
+2018-05-03 08:14:23 +0000  copying file ./Payload/shoppingList.app/Frameworks/libswiftDispatch.dylib ... 
+2018-05-03 08:14:23 +0000  1009648 bytes for ./Payload/shoppingList.app/Frameworks/libswiftDispatch.dylib
+copying file ./Payload/shoppingList.app/Frameworks/libswiftos.dylib ... 
+2018-05-03 08:14:23 +0000  249312 bytes for ./Payload/shoppingList.app/Frameworks/libswiftos.dylib
+copying file ./Payload/shoppingList.app/Frameworks/libswiftCoreFoundation.dylib ... 
+2018-05-03 08:14:23 +0000  208704 bytes for ./Payload/shoppingList.app/Frameworks/libswiftCoreFoundation.dylib
+copying file ./Payload/shoppingList.app/Frameworks/libswiftDarwin.dylib ... 
+2018-05-03 08:14:23 +0000  303472 bytes for ./Payload/shoppingList.app/Frameworks/libswiftDarwin.dylib
+2018-05-03 08:14:23 +0000  copying file ./Payload/shoppingList.app/Frameworks/GoogleToolboxForMac.framework/_CodeSignature/CodeResources ... 
+2202 bytes for ./Payload/shoppingList.app/Frameworks/GoogleToolboxForMac.framework/_CodeSignature/CodeResources
+copying file ./Payload/shoppingList.app/Frameworks/GoogleToolboxForMac.framework/GoogleToolboxForMac ... 
+2018-05-03 08:14:23 +0000  102656 bytes for ./Payload/shoppingList.app/Frameworks/GoogleToolboxForMac.framework/GoogleToolboxForMac
+copying file ./Payload/shoppingList.app/Frameworks/GoogleToolboxForMac.framework/Info.plist ... 
+2018-05-03 08:14:23 +0000  759 bytes for ./Payload/shoppingList.app/Frameworks/GoogleToolboxForMac.framework/Info.plist
+copying file ./Payload/shoppingList.app/Frameworks/nanopb.framework/_CodeSignature/CodeResources ... 
+2202 bytes for ./Payload/shoppingList.app/Frameworks/nanopb.framework/_CodeSignature/CodeResources
+copying file ./Payload/shoppingList.app/Frameworks/nanopb.framework/nanopb ... 
+2018-05-03 08:14:23 +0000  117760 bytes for ./Payload/shoppingList.app/Frameworks/nanopb.framework/nanopb
+copying file ./Payload/shoppingList.app/Frameworks/nanopb.framework/Info.plist ... 
+2018-05-03 08:14:23 +0000  731 bytes for ./Payload/shoppingList.app/Frameworks/nanopb.framework/Info.plist
+copying file ./Payload/shoppingList.app/Frameworks/libswiftQuartzCore.dylib ... 
+2018-05-03 08:14:23 +0000  212608 bytes for ./Payload/shoppingList.app/Frameworks/libswiftQuartzCore.dylib
+2018-05-03 08:14:23 +0000  copying file ./Payload/shoppingList.app/Frameworks/leveldb.framework/_CodeSignature/CodeResources ... 
+2202 bytes for ./Payload/shoppingList.app/Frameworks/leveldb.framework/_CodeSignature/CodeResources
+copying file ./Payload/shoppingList.app/Frameworks/leveldb.framework/leveldb ... 
+2018-05-03 08:14:23 +0000  556160 bytes for ./Payload/shoppingList.app/Frameworks/leveldb.framework/leveldb
+copying file ./Payload/shoppingList.app/Frameworks/leveldb.framework/Info.plist ... 
+2018-05-03 08:14:23 +0000  734 bytes for ./Payload/shoppingList.app/Frameworks/leveldb.framework/Info.plist
+copying file ./Payload/shoppingList.app/Frameworks/libswiftFoundation.dylib ... 
+2018-05-03 08:14:23 +0000  8425712 bytes for ./Payload/shoppingList.app/Frameworks/libswiftFoundation.dylib
+2018-05-03 08:14:23 +0000  copying file ./Payload/shoppingList.app/embedded.mobileprovision ... 
+25712 bytes for ./Payload/shoppingList.app/embedded.mobileprovision
+copying file ./Payload/shoppingList.app/Info.plist ... 
+1271 bytes for ./Payload/shoppingList.app/Info.plist
+copying file ./Payload/shoppingList.app/PkgInfo ... 
+2018-05-03 08:14:23 +0000  8 bytes for ./Payload/shoppingList.app/PkgInfo
+copying file ./AppThinning.plist ... 
+2018-05-03 08:14:23 +0000  228 bytes for ./AppThinning.plist
+2018-05-03 08:14:23 +0000  2018-05-03 08:14:23 +0000  /usr/bin/ditto exited with 0
+
+2018-05-03 08:14:23 +0000  
+2018-05-03 08:14:23 +0000  Processing step: IDEDistributionCreateManifestStep

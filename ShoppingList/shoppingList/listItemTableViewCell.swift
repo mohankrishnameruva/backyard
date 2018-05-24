@@ -19,8 +19,10 @@ class listItemTableViewCell: UITableViewCell {
     @IBOutlet weak var quantity: UITextField!
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
+ 
+        
+            accessoryType = selected ? .checkmark : .none
 
-        // Configure the view for the selected state
     }
     
 }
