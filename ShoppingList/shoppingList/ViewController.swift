@@ -15,10 +15,9 @@ import FirebaseDatabase
 class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource {
     
     @IBAction func openMap(_ sender: Any) {
-    let map = self.storyboard?.instantiateViewController(withIdentifier: "mapviewcontroller") as! UIViewController
-        self.present(map, animated: true, completion: nil)
+    let map = self.storyboard?.instantiateViewController(withIdentifier: "MapViewController") as! UIViewController
+        self.navigationController?.pushViewController(map, animated: true)
     }
-    
     @IBOutlet weak var PlusFloatButton: UIButton!
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -181,6 +180,13 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
         
         self.shopListTable.delegate = self
         self.shopListTable.dataSource = self
+        
+//        self.navigationController?.navigationBar.items?.removeAll()
+        
+        self.navigationItem.rightBarButtonItem?.title = "Done"
+       self.navigationItem.hidesBackButton = false
+self.navigationItem.title = "Nav item Title®"
+        self.navigationController?.title = "List view 1"
         
         let nib = UINib.init(nibName: "listItemTableViewCell", bundle: nil)
         shopListTable.register(nib, forCellReuseIdentifier: "listItemTableViewCell")

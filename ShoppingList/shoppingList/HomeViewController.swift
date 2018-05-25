@@ -8,11 +8,32 @@
 
 import UIKit
 
-class HomeViewController: UIViewController {
 
+class HomeViewController: UIViewController , UICollectionViewDelegate, UICollectionViewDataSource {
+    @IBOutlet weak var ListsCollectionView: UICollectionView!
+    
+    func numberOfSections(in collectionView: UICollectionView) -> Int {
+        return 1
+    }
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        return 5
+    }
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "HomeCell", for: indexPath) as! HomeListCollectionViewCell
+        cell.ListName.text = "ListNumber" + String(indexPath.row)
+        
+        return cell as UICollectionViewCell
+        
+    }
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        let ListView = self.storyboard?.instantiateViewController(withIdentifier: "ViewController") as! UIViewController
+       self.navigationController?.pushViewController(ListView, animated: true)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+ListsCollectionView.delegate = self
+        ListsCollectionView.dataSource = self
         // Do any additional setup after loading the view.
     }
 

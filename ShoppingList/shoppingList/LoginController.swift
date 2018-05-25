@@ -36,7 +36,7 @@ class LoginController: UIViewController,UICollisionBehaviorDelegate {
         if temp  == "LogindetectorView" {
             let storyBoard : UIStoryboard = UIStoryboard(name: "Main", bundle:nil)
             
-            let navController = storyBoard.instantiateViewController(withIdentifier: "navController") as! UINavigationController
+            let navController = storyBoard.instantiateViewController(withIdentifier: "HomeNavigation") as! UIViewController
             self.present(navController, animated:true, completion:nil)
         }
     }

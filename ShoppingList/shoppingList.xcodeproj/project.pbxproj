@@ -13,6 +13,7 @@
 		010E8F35208F0BC4001E8BC6 /* listItemTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 010E8F33208F0BC4001E8BC6 /* listItemTableViewCell.xib */; };
 		01698FE220B2D2210027FD87 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01698FE120B2D2210027FD87 /* RegisterViewController.swift */; };
 		01698FE420B2ED9F0027FD87 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01698FE320B2ED9F0027FD87 /* HomeViewController.swift */; };
+		019EE31820B7EEA20054AA89 /* HomeListCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019EE31720B7EEA20054AA89 /* HomeListCollectionViewCell.swift */; };
 		01A2B7E320B6E12A003D16A0 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01A2B7E220B6E12A003D16A0 /* MapKit.framework */; };
 		01A2B7ED20B6E9C9003D16A0 /* geotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A2B7EC20B6E9C9003D16A0 /* geotification.swift */; };
 		01A2B7EF20B6EB1E003D16A0 /* utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A2B7EE20B6EB1E003D16A0 /* utilities.swift */; };
@@ -56,6 +57,7 @@
 		01698FE020B2CA5C0027FD87 /* shoppingList.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = shoppingList.entitlements; sourceTree = "<group>"; };
 		01698FE120B2D2210027FD87 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		01698FE320B2ED9F0027FD87 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		019EE31720B7EEA20054AA89 /* HomeListCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeListCollectionViewCell.swift; sourceTree = "<group>"; };
 		01A2B7E220B6E12A003D16A0 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		01A2B7EC20B6E9C9003D16A0 /* geotification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = geotification.swift; sourceTree = "<group>"; };
 		01A2B7EE20B6EB1E003D16A0 /* utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = utilities.swift; sourceTree = "<group>"; };
@@ -153,6 +155,7 @@
 				01A2B7EE20B6EB1E003D16A0 /* utilities.swift */,
 				01B5F432208E59A400F12081 /* Main.storyboard */,
 				01698FE320B2ED9F0027FD87 /* HomeViewController.swift */,
+				019EE31720B7EEA20054AA89 /* HomeListCollectionViewCell.swift */,
 				01B5F438208E59A400F12081 /* Assets.xcassets */,
 				01B5F43A208E59A400F12081 /* LaunchScreen.storyboard */,
 				01B5F43D208E59A400F12081 /* Info.plist */,
@@ -443,6 +446,7 @@
 				01A2B7ED20B6E9C9003D16A0 /* geotification.swift in Sources */,
 				01698FE420B2ED9F0027FD87 /* HomeViewController.swift in Sources */,
 				01A2B7EF20B6EB1E003D16A0 /* utilities.swift in Sources */,
+				019EE31820B7EEA20054AA89 /* HomeListCollectionViewCell.swift in Sources */,
 				0100441920B4262700A1FAE4 /* MapViewController.swift in Sources */,
 				010E8F34208F0BC4001E8BC6 /* listItemTableViewCell.swift in Sources */,
 				01B5F431208E59A400F12081 /* ViewController.swift in Sources */,

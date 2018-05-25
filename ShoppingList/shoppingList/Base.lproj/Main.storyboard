@@ -20,7 +20,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="r5v-iq-MyJ">
-                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <connections>
                                     <outlet property="dataSource" destination="BYZ-38-t0r" id="tm1-YV-UI5"/>
@@ -63,10 +63,6 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Shopping list" id="z3p-6n-zH2">
-                        <barButtonItem key="leftBarButtonItem" systemItem="organize" id="Tfz-eG-5na" userLabel="Share"/>
-                        <barButtonItem key="rightBarButtonItem" systemItem="action" id="JFR-AS-olv"/>
-                    </navigationItem>
                     <connections>
                         <outlet property="PlusFloatButton" destination="olA-uA-nio" id="lkM-r4-Zeq"/>
                         <outlet property="shopListTable" destination="r5v-iq-MyJ" id="pAs-i3-ZvU"/>
@@ -74,18 +70,18 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-225" y="161"/>
+            <point key="canvasLocation" x="174" y="-173"/>
         </scene>
         <!--Map View Controller-->
         <scene sceneID="TxT-6n-0W2">
             <objects>
-                <viewController storyboardIdentifier="mapviewcontroller" id="KM2-Rh-hMr" customClass="MapViewController" customModule="shoppingList" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MapViewController" id="KM2-Rh-hMr" customClass="MapViewController" customModule="shoppingList" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="gng-zR-IRM">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="Ea1-Aw-0fv">
-                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
                             </mapView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -116,20 +112,64 @@
             </objects>
             <point key="canvasLocation" x="326" y="805"/>
         </scene>
-        <!--Home View Controller-->
+        <!--Your Lists-->
         <scene sceneID="jnJ-Bm-zbs">
             <objects>
-                <viewController id="aIr-mK-SBS" customClass="HomeViewController" customModule="shoppingList" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="HomeViewController" id="aIr-mK-SBS" customClass="HomeViewController" customModule="shoppingList" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="b9U-Bc-Olg">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="TEr-aB-gzb">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="hN3-T8-k8K">
+                                    <size key="itemSize" width="123" height="83"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="HomePage" reuseIdentifier="HomeCell" id="u1L-G7-aZf" customClass="HomeListCollectionViewCell" customModule="shoppingList" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="123" height="83"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                                            <rect key="frame" x="0.0" y="0.0" width="123" height="83"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YbB-xn-4Em">
+                                                    <rect key="frame" x="40" y="20" width="42" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </view>
+                                        <connections>
+                                            <outlet property="ListName" destination="YbB-xn-4Em" id="cJQ-NH-bUv"/>
+                                        </connections>
+                                    </collectionViewCell>
+                                </cells>
+                            </collectionView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="UaA-x0-Izf" firstAttribute="trailing" secondItem="TEr-aB-gzb" secondAttribute="trailing" id="FaU-uE-cPe"/>
+                            <constraint firstItem="TEr-aB-gzb" firstAttribute="top" secondItem="UaA-x0-Izf" secondAttribute="top" id="L8j-zF-HTy"/>
+                            <constraint firstItem="TEr-aB-gzb" firstAttribute="leading" secondItem="UaA-x0-Izf" secondAttribute="leading" id="PvR-gb-MGc"/>
+                            <constraint firstItem="UaA-x0-Izf" firstAttribute="bottom" secondItem="TEr-aB-gzb" secondAttribute="bottom" id="vIE-Df-XQt"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="UaA-x0-Izf"/>
                     </view>
+                    <navigationItem key="navigationItem" title="Your Lists" id="HCF-D2-Vkg"/>
+                    <connections>
+                        <outlet property="ListsCollectionView" destination="TEr-aB-gzb" id="4Kg-43-Uu3"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CVB-Mg-09x" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-438" y="-995"/>
+            <point key="canvasLocation" x="-878" y="-193"/>
         </scene>
         <!--Add New Item-->
         <scene sceneID="AeP-jv-VGP">
@@ -144,7 +184,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Yrw-ne-iSI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1351.2" y="133.5832083958021"/>
+            <point key="canvasLocation" x="1690.4000000000001" y="133.5832083958021"/>
         </scene>
         <!--Register View Controller-->
         <scene sceneID="vAM-jV-Fei">
@@ -200,7 +240,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Qa9-MJ-ll3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-3743.1999999999998" y="261.31934032983509"/>
+            <point key="canvasLocation" x="-3484" y="-712"/>
         </scene>
         <!--Login Controller-->
         <scene sceneID="Lrs-Jc-dgb">
@@ -286,25 +326,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JoZ-Gl-DdJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1929" y="161"/>
-        </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="l1S-CM-aUB">
-            <objects>
-                <navigationController storyboardIdentifier="navController" automaticallyAdjustsScrollViewInsets="NO" id="uau-Ec-k5n" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="PSu-9T-1Ig">
-                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="bbJ-Ba-pvn"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="0t4-Tr-Vfc" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-1044" y="161"/>
+            <point key="canvasLocation" x="-3484" y="161"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="iuK-xX-LAx">
@@ -319,25 +341,25 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bxN-er-T8w" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2184.8000000000002" y="133.5832083958021"/>
+            <point key="canvasLocation" x="2524" y="133.5832083958021"/>
         </scene>
         <!--Navigation Controller-->
-        <scene sceneID="Ucq-Df-SYw">
+        <scene sceneID="N6C-nx-CkG">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="j73-Ws-9iD" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="HomeNavigation" automaticallyAdjustsScrollViewInsets="NO" id="58a-Q7-yor" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="YNM-J3-awe">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Rir-36-pJ8">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="KM2-Rh-hMr" kind="relationship" relationship="rootViewController" id="FOQ-Zp-ldn"/>
+                        <segue destination="aIr-mK-SBS" kind="relationship" relationship="rootViewController" id="qCj-Qz-Dbr"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="2Oy-jC-1tG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="f2N-Fc-vnk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-479" y="892"/>
+            <point key="canvasLocation" x="-2089" y="-173"/>
         </scene>
     </scenes>
 </document>
